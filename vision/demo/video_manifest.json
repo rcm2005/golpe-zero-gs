@@ -1,0 +1,32 @@
+{
+  "arquivo": "vision/demo/video_demo_visao.mp4",
+  "duracao_s": 174.85,
+  "resolucao": "1280x720",
+  "fps": 30,
+  "codec_video": "h264/yuv420p",
+  "codec_audio": "aac",
+  "tts": "say -v Luciana -r 175",
+  "blocos": {
+    "abertura": 26.4,
+    "dataset": 28.3,
+    "demo0000": 24.78,
+    "demo0002_0028": 20.44,
+    "metricas": 26.94,
+    "api": 31.27,
+    "conclusao": 14.62
+  },
+  "inferencias": {
+    "0002": {
+      "risco": "CRITICO",
+      "total": 5
+    },
+    "0028": {
+      "risco": "ALTO",
+      "total": 1
+    },
+    "0000": {
+      "risco": "CRITICO",
+      "total": 4
+    }
+  }
+}

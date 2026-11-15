@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "chunk_certbr_001",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "DESCONFIE. INFORME-SE. VERIFIQUE. G olpistas estão sempre criando novos truques para enganar e tirar vantagem. Fique atento e não caia nessa. Veja aqui como identificar sinais de golpes."
+  },
+  {
+    "id": "chunk_certbr_002",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "FIQUE ALERTA Diz que é uma pessoa ou organização conhecida? Envolve dinheiro, vantagem ou informações pessoais? Quer que faça algo sem tempo para pensar?"
+  },
+  {
+    "id": "chunk_certbr_003",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "deepfake_ia",
+    "conteudo": "DESCONFIE SEMPRE E stá difícil saber se é golpe? Não é à toa. Golpistas estão cada vez mais convincentes, usam até inteligência artificial (IA). Qualquer vacilo, e eles levam a melhor. Fique sempre com o pé atrás - envolve dinheiro, informações pessoais ou alguma vantagem? Assuma que é golpe até que se prove o contrário ? ? ?"
+  },
+  {
+    "id": "chunk_certbr_004",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "Veja mais dicas no fascículo \"Boatos\". BUSQUE INFORMAÇÕES E stá em dúvida? A informação é sua maior aliada. Use-a a seu favor e não caia na lábia de golpistas. Acesse fontes oficiais Confira em mais de uma fonte confiável Converse com outras pessoas Pesquise relatos de golpes parecidos (ex: https://scam.org/) ?"
+  },
+  {
+    "id": "chunk_certbr_005",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "E ngenharia social é quando alguém ten- ta enganar outra pessoa explorando sentimentos, como medo, obediência, confiança, carência, ganância, curiosida- de e vontade de ajudar. É uma técnica muito usada por golpistas para levar as pessoas a agir sem pensar."
+  },
+  {
+    "id": "chunk_certbr_006",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "A pelo emocional? Golpistas são especialistas em engenharia social. Sabem usar as palavras e o tom certos para mexer com seus sentimentos e levar você a agir por impulso. Antes de agir, pare e pense Procure sinais de: - ameaça - pressa - apelo afetivo - constrangimento - pedido de segredo OBSERVE O TOM DA MENSAGEM - vantagem boa demais - oportunidade exclusiva - obediência à autoridade - promessa de dinheiro fácil"
+  },
+  {
+    "id": "chunk_certbr_007",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "QUESTIONE SE FAZ SENTIDO P arece estranho? Golpistas estão sempre buscando no- vas vítimas. Mandam men- sagens para muitas pessoas, por vários meios, esperando que alguém “morda a isca”. Pergunte-se, por exemplo: - tenho conta neste banco? - o valor cobrado confere? - por que pagar antes e não descontar do que tenho a receber? ? ? ? ?"
+  },
+  {
+    "id": "chunk_certbr_008",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "phishing",
+    "conteudo": "FIQUE ATENTO A GOLPES DO DIA A DIA I mprevisto ou oferta imperdível? Golpistas usam temas cotidianos para chamar sua atenção, pegar seus dados e levar você a acessar links maliciosos ou instalar malware. Suspeite de mensagens sobre: - CPF cancelado - encomenda retida - oferta de emprego - pagamento pendente Não faça o que o golpista pede - na dúvida, contate a instituição pelos canais oficiais - recadastramento de token - pontos ou bônus expirando - atualização de aplicativo"
+  },
+  {
+    "id": "chunk_certbr_009",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "REDOBRE A ATENÇÃO COM TEMAS EM DESTAQUE e stá todo mundo falando de um assunto? Golpistas aproveitam temas em alta para atrair vítimas. Fique atento a assuntos como: - eleições - promoções (ex: Black Friday) - tragédias (ex: enchentes, pandemia) - grandes eventos (ex: Copa do Mundo) - impostos (ex: IPVA, Imposto de Renda) Promoções, doações, débitos ou pendências? - só em canais oficiais! Oferta muito boa? - lembre-se: ”quando a esmola é demais, o santo desconfia” 90% DESCONTO"
+  },
+  {
+    "id": "chunk_certbr_010",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "SUSPEITE, MESMO QUE SAIBAM SEUS DADOS c om tantos dados reais, como não acreditar? Golpistas usam informações vazadas e públicas para fazer o golpe parecer verdadeiro. Tire a prova, sempre! - confirme a história com a organização ou pessoa - use um contato oficial ou já conhecido"
+  },
+  {
+    "id": "chunk_certbr_011",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "deepfake_ia",
+    "conteudo": "DUVIDE ATÉ DE ÁUDIOS E VÍDEOS T em a voz ou o rosto de alguém conhecido? Golpistas criam imitações com IA para pedir dinheiro e indicar investimentos falsos, explorando a confiança entre as pessoas ou a imagem de famosos. Desconfie de contatos desconhecidos que dizem ser alguém próximo ou famoso - converse com a pessoa usando um contato já conhecido Busque sinais de alteração em áudio ou vídeo T este o conhecimento da pessoa - combine uma “senha” com seus conhecidos"
+  },
+  {
+    "id": "chunk_certbr_012",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "LIMITE O QUE COMPARTILHA V ai postar algo? Quanto mais você se expõe, mais os golpistas aprendem sobre você e mais convincentes eles se tornam. Antes de postar, pense: - quem vai ter acesso - o que isso pode causar Não aceite qualquer contato em suas redes - cuidado com perfis falsos Veja mais dicas no fascículo \"Proteção de Dados\"."
+  },
+  {
+    "id": "chunk_certbr_013",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "Golpes: Caiu? Veja o que Fazer Golpes: Evite Fraudes V eja mais sobre golpes e fraudes nos “Golpes: Caiu? Veja o que Fazer”."
+  },
+  {
+    "id": "chunk_certbr_014",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "SAIBA MAIS Para mais detalhes sobre este e outros assuntos relacionados com cuidados na da Cartilha de Segurança para Internet, Procurando material para conversar sobre segurança com diferentes públicos? O Portal Internet Segura apresenta uma série de materiais focados em crianças, adolescentes, pais, responsáveis e educadores, confira em: https://internetsegura.br/"
+  },
+  {
+    "id": "chunk_certbr_015",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "O CERT.br (https://cert.br/) é um Grupo de Resposta a Incidentes de Segurança (CSIRT) de responsabilidade nacional de último recurso, mantido pelo NIC.br. Além da gestão de incidentes, também atua na conscientização sobre os problemas de segurança, na consciência situa- cional e transferência de conhecimento, sempre respal- dado por forte integração com as comunidades nacional e internacional de CSIRT s."
+  },
+  {
+    "id": "chunk_certbr_016",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "Além da gestão de incidentes, também atua na conscientização sobre os problemas de segurança, na consciência situa- cional e transferência de conhecimento, sempre respal- dado por forte integração com as comunidades nacional e internacional de CSIRT s. O Núcleo de Informação e Coordenação do Ponto BR - NIC.br (https://nic.br/) é uma entidade civil de direito privado e sem fins de lucro, encarregada da operação do domínio .br, bem como da distribuição de números IP e do registro de Sistemas Autônomos no País."
+  },
+  {
+    "id": "chunk_certbr_017",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "O Núcleo de Informação e Coordenação do Ponto BR - NIC.br (https://nic.br/) é uma entidade civil de direito privado e sem fins de lucro, encarregada da operação do domínio .br, bem como da distribuição de números IP e do registro de Sistemas Autônomos no País. Conduz ações e projetos que trazem benefícios à infraestrutura da Internet no Brasil."
+  },
+  {
+    "id": "chunk_certbr_018",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Não se Deixe Enganar)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "Conduz ações e projetos que trazem benefícios à infraestrutura da Internet no Brasil. O Comitê Gestor da Internet no Brasil (https://cgi.br/), responsável por estabelecer diretrizes estratégicas relacionadas ao uso e desenvolvimento da Internet no Brasil, coordena e integra todas as iniciativas de servi- ços Internet no País, promovendo a qualidade técnica, a inovação e a disseminação dos serviços ofertados. março / 2026"
+  },
+  {
+    "id": "chunk_certbr_019",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "DESCONFIE. PREVINA-SE. A lém de manipular as emoções das pes- soas, fraudadores também se aprovei- tam de brechas de segurança para apli- car golpes. Veja aqui como se proteger."
+  },
+  {
+    "id": "chunk_certbr_020",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "NA DÚVIDA, DIGA NÃO E DENUNCIE O site, app ou contato é oficial? Tem certeza de quem é a pessoa do outro lado? Conferiu os dados antes de pagar ou transferir?"
+  },
+  {
+    "id": "chunk_certbr_021",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "PROTEJA SUAS CONTAS P or que golpistas querem acessar suas contas? Para se passar por você, usar seus dados, gastar seu dinheiro, fazer dívidas em seu nome e enganar seus contatos. Use senhas fortes Ative a verificação em duas etapas Não passe senhas nem códigos de verificação Redobre a atenção com contas importantes, como as usadas para: - recuperar senhas - acessar vários serviços (ex: gov.br) Veja mais dicas no fascículo \"Autenticação\". SMS"
+  },
+  {
+    "id": "chunk_certbr_022",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "phishing",
+    "conteudo": "NÃO ACESSE QUALQUER LINK A cessar links sem ava- liar? É arriscado. Você pode cair em páginas de phishing ou com malware, criadas para pegar seus dados, infectar seus disposi- tivos e cometer fraudes. Confira o endereço do site (URL), antes de aces- sar o link - na dúvida, não acesse! Adote os mesmos cuida- dos com links obtidos de QR Codes Desconfie até de mensa- gens de conhecidos - a conta pode estar invadida ou o dispositivo infectado"
+  },
+  {
+    "id": "chunk_certbr_023",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "engenharia_social",
+    "conteudo": "P hishing é um tipo de fraude na qual golpistas tentam obter informações pessoais e financeiras, combinando engenharia social com recursos técnicos. A palavra phishing vem do inglês “fishing” , que significa “pesca” . Os golpistas jogam “iscas” (mensagens) para tentar fisgar seus dados."
+  },
+  {
+    "id": "chunk_certbr_024",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "phishing",
+    "conteudo": "ACESSE SITES E APLICATIVOS OFICIAIS T em certeza de que o site ou app é autêntico? T odo cuidado é pouco. Golpistas criam páginas e apps falsos que imitam organiza- ções conhecidas para fazer vítimas. Digite o endereço do site (URL) diretamente no navegador - use conexões seguras (https) - ao usar ferramentas de busca, confira se a URL mostrada é a legítima Instale apps só de lojas oficiais - antes de baixar, confirme se é o desenvolvedor correto - nunca use link ou app recebido por mensagem Veja mais dicas no fascículo \"Celulares e T ablets\"."
+  },
+  {
+    "id": "chunk_certbr_025",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "BUSQUE O PERFIL OFICIAL Q uer fazer contato via rede social? Golpistas criam perfis falsos fingindo ser empresas ou pessoas conhecidas para pegar seus dados e pedir dinheiro. Antes de contatar um perfil, confira se é o oficial - busque o nome do perfil na página oficial da empresa - observe o histórico do perfil, como data de criação, publicações antigas e seguidores"
+  },
+  {
+    "id": "chunk_certbr_026",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "NÃO RESPONDA, DENUNCIE M ensagem ou ligação com cara de golpe? Qualquer resposta pode entregar in- formações e colocá-lo em risco. Denunciar ajuda a tirar do ar anúncios e perfis falsos e evitar que outras pessoas caiam. Denuncie mensagens, anúncios e perfis maliciosos - use os recursos disponíveis nas plataformas Bloqueie telefones e contas que enviam mensagens suspeitas Evite atender chamadas de números desconhecidos - use filtros (ex: da operadora, do sistema do celular)"
+  },
+  {
+    "id": "chunk_certbr_027",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "CUIDADO COM QR CODES EM LOCAIS PÚBLICOS V ai ler QR Code em local públi- co? Golpistas podem substi- tuir códigos originais por fal- sos em placas, folhetos, cartazes, mesas, parquímetros e objetos de acesso coletivo. Evite ler QR Codes de fontes desconhecidas Antes de ler o QR Code: - procure sinais de alteração - confira se não há adesivo colado por cima Redobre a atenção em restaurantes, estacionamentos, caixas eletrônicos, propagandas na rua e transportes públicos Na dúvida, não leia e avise alguém responsável pelo local"
+  },
+  {
+    "id": "chunk_certbr_028",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "ANTES DE PAGAR, CONFIRA OS DADOS DO QR CODE S abia que golpistas usam QR Codes para furtar dinheiro? Eles trocam os códigos para desviar o pa- gamento para outra conta. T ambém mandam cobranças falsas por mensagens. Prefira ler ou copiar QR Codes diretamente de sites e apps oficiais - ignore QR Codes recebidos por mensagens Antes de confirmar paga- mentos e transferências, observe: - o valor mostrado está certo? - os dados de quem vai receber, como CNPJ e nome, estão corretos?"
+  },
+  {
+    "id": "chunk_certbr_029",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "CONFIRME PRIMEIRO, TRANSFIRA DEPOIS A pessoa da foto é conhecida, mas o número do telefone é diferente? Desconfie! Golpis- tas usam fotos de redes sociais para enganar amigos e familiares. Não acredite que a pessoa é quem diz ser - converse com a pessoa conhecida pelo contato de sempre - não salve o novo número sem confirmar antes Desconfie de qualquer pedido de dinheiro - mesmo que seja comum na família Antes de fazer transferências ou pagamentos, confira os dados de quem vai receber - na dúvida, não faça!"
+  },
+  {
+    "id": "chunk_certbr_030",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "Veja mais dicas no fascículo \"Banco via Internet\". CONFIRA OS DADOS DE BOLETOS S erá que o boleto é verdadeiro? Golpistas enviam boletos falsos se passando por empresas co- nhecidas e, ao pagar, o dinheiro vai para a conta deles. Antes de pagar, pergunte-se: - devo mesmo essa despesa? - o valor cobrado está correto? - os dados de quem vai receber, como nome e CNPJ, são do fornecedor que contratei?"
+  },
+  {
+    "id": "chunk_certbr_031",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "- os dados de quem vai receber, como nome e CNPJ, são do fornecedor que contratei? Prefira boleto eletrônico registrado - o pagamento vai para o emissor registrado Em caso de dúvida, contate o fornecedor via canais oficiais"
+  },
+  {
+    "id": "chunk_certbr_032",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "SÓ DEVOLVA PIX PARA A CONTA DE ORIGEM R ecebeu Pix “por engano” e pediram que de- volva para outra conta? Não caia nessa. Se o dinheiro não voltar para a conta de origem, o golpista pode pedir o estorno usando o Mecanis- mo Especial de Devolução (MED). No final, você devolve duas vezes. Confirme no extrato se o Pix caiu mesmo Use a opção de devolução no app ou site do banco - não faça um novo Pix"
+  },
+  {
+    "id": "chunk_certbr_033",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "Veja mais dicas no fascículo \"Comércio via Internet\". VERIFIQUE SE O SITE OU VENDEDOR É CONFIÁVEL O ferta imperdível? Melhor confe- rir! Golpistas criam sites falsos com preços muito abaixo do normal. Depois que você paga, eles somem e o produto não chega. E ainda podem usar seus dados em outros golpes. Compare preços e desconfie de ofertas boas demais Pesquise a reputação em redes sociais, sites de reclamações e de defesa do consumidor Prefira sites e vendedores que você já conhece ou tenha boas referências"
+  },
+  {
+    "id": "chunk_certbr_034",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "SÓ PAGUE NA PLATAFORMA ORIGINAL DA COMPRA F ez uma compra e estão pedindo taxa extra por outro canal? Cui- dado com o golpe! Além de você pagar a mais, podem clonar seu cartão e usar seus dados em frau- des. Sem falar que você pode virar um “alvo preferido” . Na dúvida, contate a platafor- ma por canais oficiais Ao fazer qualquer pagamento: - no Pix ou boleto, verifique os dados do recebedor - confira o valor antes de auto- rizar a cobrança - confirme o valor cobrado em sua conta ou cartão Veja mais dicas no fascículo \"Comércio via Internet\"."
+  },
+  {
+    "id": "chunk_certbr_035",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "falso_emprestimo",
+    "conteudo": "EVITE QUE ABRAM CONTAS BANCÁRIAS COM SEU CPF A pareceu uma despesa que você não fez? Seu nome ficou sujo na praça? Fraudadores usam dados vazados para abrir contas bancárias, fazer empréstimos e movimentar dinheiro de outras vítimas. Ative a proteção BC PROTEGE+ do Banco Central https://www.bcb.gov.br/meubc/bcprotege/ Desative temporariamente a proteção quando precisar - agende a reativação automática"
+  },
+  {
+    "id": "chunk_certbr_036",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "BLOQUEIE A ABERTURA DE EMPRESAS COM SEU CPF J á imaginou seu nome envolvido com empresas fantasmas e golpes? Fraudadores podem usar seu CPF para abrir empresas falsas e usá-las em golpes ou operações ilegais, como lavagem de dinheiro. Ative a Proteção do CPF no Portal Nacional da Redesim https://www.gov.br/empresas- e-negocios/pt-br/redesim/"
+  },
+  {
+    "id": "chunk_certbr_037",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "Golpes: Caiu? Veja o que Fazer Golpes: Não se Deixe Enganar V eja mais sobre golpes e fraudes nos e “Golpes: Caiu? Veja o que Fazer”."
+  },
+  {
+    "id": "chunk_certbr_038",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "SAIBA MAIS Para mais detalhes sobre este e outros assuntos relacionados com cuidados na da Cartilha de Segurança para Internet, Procurando material para conversar sobre segurança com diferentes públicos? O Portal Internet Segura apresenta uma série de materiais focados em crianças, adolescentes, pais, responsáveis e educadores, confira em: https://internetsegura.br/"
+  },
+  {
+    "id": "chunk_certbr_039",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "O CERT.br (https://cert.br/) é um Grupo de Resposta a Incidentes de Segurança (CSIRT) de responsabilidade nacional de último recurso, mantido pelo NIC.br. Além da gestão de incidentes, também atua na conscientização sobre os problemas de segurança, na consciência situa- cional e transferência de conhecimento, sempre respal- dado por forte integração com as comunidades nacional e internacional de CSIRT s."
+  },
+  {
+    "id": "chunk_certbr_040",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "Além da gestão de incidentes, também atua na conscientização sobre os problemas de segurança, na consciência situa- cional e transferência de conhecimento, sempre respal- dado por forte integração com as comunidades nacional e internacional de CSIRT s. O Núcleo de Informação e Coordenação do Ponto BR - NIC.br (https://nic.br/) é uma entidade civil de direito privado e sem fins de lucro, encarregada da operação do domínio .br, bem como da distribuição de números IP e do registro de Sistemas Autônomos no País."
+  },
+  {
+    "id": "chunk_certbr_041",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "O Núcleo de Informação e Coordenação do Ponto BR - NIC.br (https://nic.br/) é uma entidade civil de direito privado e sem fins de lucro, encarregada da operação do domínio .br, bem como da distribuição de números IP e do registro de Sistemas Autônomos no País. Conduz ações e projetos que trazem benefícios à infraestrutura da Internet no Brasil."
+  },
+  {
+    "id": "chunk_certbr_042",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Evite Fraudes)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-evite-fraudes",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "prevencao_fraudes",
+    "conteudo": "Conduz ações e projetos que trazem benefícios à infraestrutura da Internet no Brasil. O Comitê Gestor da Internet no Brasil (https://cgi.br/), responsável por estabelecer diretrizes estratégicas relacionadas ao uso e desenvolvimento da Internet no Brasil, coordena e integra todas as iniciativas de servi- ços Internet no País, promovendo a qualidade técnica, a inovação e a disseminação dos serviços ofertados. março / 2026"
+  },
+  {
+    "id": "chunk_certbr_043",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "S e caiu em um golpe, agir rápido faz toda diferença! Ajuda a reduzir prejuí- zos e a evitar que os golpistas façam mais vítimas. Veja aqui dicas do que fazer. CAIU EM UM GOLPE? SAIBA O QUE FAZER."
+  },
+  {
+    "id": "chunk_certbr_044",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "phishing",
+    "conteudo": "Transferiu dinheiro? Passou senhas ou outros dados pessoais? Acessou um link ou abriu um arquivo? SE CAIU NUM GOLPE, AJA RÁPIDO"
+  },
+  {
+    "id": "chunk_certbr_045",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "O golpista insiste, pede mais dinheiro ou faz ameaças? Corte o contato imedia- tamente. Manter a conversa pode expor mais informações e abrir espaço para novas tentativas de golpe. Não envie mais dinheiro nem informações Não tente negociar Bloqueie o perfil ou número de telefone CORTE O CONTATO COM O GOLPISTA"
+  },
+  {
+    "id": "chunk_certbr_046",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "TROQUE SUAS SENHAS E ntrou com senha em uma página falsa ou contou ao golpista? Suas contas podem estar invadidas e sua identidade em risco. Altere imediatamente a senha - em todas as contas onde for usada Ative a verificação em duas etapas - se já estava ativa, recuse notificações de aprovação (push notifications) que não iniciou Encerre as sessões ativas em outros dispositivos Veja mais dicas no fascículo \"Autenticação\"."
+  },
+  {
+    "id": "chunk_certbr_047",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "CONTESTE O PIX C omprou em site falso? Pagou um QR Code alterado? Transferiu dinheiro ao golpis- ta? Se você usou Pix, o MED é o caminho mais rápido para tentar recuperar os valores. Conteste a transferência para acionar o MED - use o app ou outros canais oficiais do banco Quanto antes contestar, maior a chance de reaver os valores M ecanismo Especial de Devolução (MED) é um recurso de segurança do Pix para facilitar a devolução em caso de golpes, fraudes e falhas operacionais."
+  },
+  {
+    "id": "chunk_certbr_048",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "Conteste a transferência para acionar o MED - use o app ou outros canais oficiais do banco Quanto antes contestar, maior a chance de reaver os valores M ecanismo Especial de Devolução (MED) é um recurso de segurança do Pix para facilitar a devolução em caso de golpes, fraudes e falhas operacionais. Pode ser acio- nado via app e pelos canais oficiais do banco em situações como: - compra em site falso - pagamento de QR Code falso ou alterado - transferência que a vítima foi engana- da a fazer"
+  },
+  {
+    "id": "chunk_certbr_049",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "fraude_cartao",
+    "conteudo": "CONTESTE COMPRAS NO CARTÃO DE CRÉDITO A pareceu uma compra no cartão que você não reconhece? Golpistas podem ter obtido os dados do seu cartão de crédito e estar usando para cometer fraudes. Conteste a compra - use o app ou outros canais oficiais do banco emissor do cartão Verifique se há outras compras que não reconhece - inclusive em faturas anteriores - conteste todas as compras indevidas que localizar"
+  },
+  {
+    "id": "chunk_certbr_050",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "fraude_cartao",
+    "conteudo": "BLOQUEIE O CARTÃO DE CRÉDITO P assou os dados do cartão para o golpista? Suspeita de celular infectado? Compras inde- vidas na fatura? É melhor bloquear o cartão de crédito para evitar dor de cabeça e prejuízos, para você e para lojistas. Cartão virtual permanente ou recorrente? - solicite bloqueio ou exclusão Cartão físico? - solicite bloqueio ou cancelamento - desative a opção de compras online"
+  },
+  {
+    "id": "chunk_certbr_051",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "phishing",
+    "conteudo": "- links - mensagens - nomes de perfis - números de telefones - capturas de tela (“prints”) - comprovantes de transferências e pagamentos - denúncias e reclamações - números de protocolos - nomes dos atendentes - datas e horários dos atendimentos GUARDE EVIDÊNCIAS S alvou as evidências do golpe? Elas podem ser necessárias para solicitar estornos e ressarci- mentos, registrar boletim de ocorrência e acionar a justiça ou órgãos de defesa do consumidor."
+  },
+  {
+    "id": "chunk_certbr_052",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "phishing",
+    "conteudo": "Elas podem ser necessárias para solicitar estornos e ressarci- mentos, registrar boletim de ocorrência e acionar a justiça ou órgãos de defesa do consumidor. Guarde tudo que tiver sobre o golpe, como: Anote o que está fazendo para resolver, como:"
+  },
+  {
+    "id": "chunk_certbr_053",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "boletim_ocorrencia",
+    "conteudo": "FAÇA UM BOLETIM DE OCORRÊNCIA (BO) J á registrou um BO? Ele ajuda você a se proteger, princi- palmente se houve prejuízo financeiro ou uso indevido dos seus dados. T ambém pode ser necessário para contestar fraudes e acionar seguros. Registre oficialmente o que aconteceu - na maioria dos casos pode ser feito online Inclua no BO as evidências do golpe"
+  },
+  {
+    "id": "chunk_certbr_054",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "O golpe envolveu alguma rede social? Denunciar na pla- taforma ajuda a tirar do ar perfis, publicações e anúncios maliciosos, interrompe o es- quema dos golpistas e protege outras pessoas. Use os recursos disponíveis nas plataformas envolvidas Denuncie o perfil, a mensagem ou o anúncio suspeito Incentive outras vítimas a denunciar - quanto mais denúncias, maior a chance de sair do ar DENUNCIE NA REDE SOCIAL"
+  },
+  {
+    "id": "chunk_certbr_055",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "AVISE SEUS CONTATOS A lguém está se passando por você? Golpistas podem invadir suas contas ou criar perfis fal- sos para enganar seus amigos e familiares. Alerte seus contatos se: - invadirem alguma conta sua - criarem um perfil falso em seu nome - disserem que seu celular mudou de número - pedirem para fazer Pix ou pagar boletos Oriente-os a não acreditar sem verificar antes - peça que liguem para o número que já conhecem - combine uma “senha” que só você saberá responder"
+  },
+  {
+    "id": "chunk_certbr_056",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "med_pix",
+    "conteudo": "REINSTALE SEU CELULAR I nstalou um app indicado por alguém que se dizia do banco? Pode ser malware, que captura seus dados, permite acesso remoto ao seu aparelho e interfere nos apps bancários, alterando valores e chaves Pix sem você perceber. Restaure o celular para as configurações origi- nais de fábrica Recupere os dados de um backup confiável"
+  },
+  {
+    "id": "chunk_certbr_057",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "phishing",
+    "conteudo": "REINSTALE SEU COMPUTADOR a briu um arquivo, acessou um link ou instalou um aplicativo indicado pelo golpista? Sem perceber, você pode ter instalado um pro- grama que permite controlar seu computador à distância ou um malware que furta suas senhas e outros dados pessoais. Execute uma verificação completa com antivírus - pode ser o nativo do sistema ou outro de sua preferência Exclua arquivos suspeitos Remova aplicativos instalados: - sem sua permissão - por sugestão do golpista Reinstale o sistema se não conseguir remover o malware"
+  },
+  {
+    "id": "chunk_certbr_058",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "falso_emprestimo",
+    "conteudo": "BUSQUE AJUDA A inda não conseguiu resolver tudo? T alvez seja preciso buscar ajuda especializada para recuperar valores ou cancelar transa- ções, como empréstimos e dívidas feitas pelo golpista. Em alguns casos, seu CPF pode até ser negativado. Avalie: - registrar reclamação no Banco Central - procurar o Procon de seu estado - consultar um advogado"
+  },
+  {
+    "id": "chunk_certbr_059",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "furto_identidade",
+    "conteudo": "MONITORE SUA IDENTIDADE E VIDA FINANCEIRA A cha que está tudo resolvido? Os efeitos de uma fraude podem ser duradouros ou se manifestar depois de bastante tempo, o que exige atenção contínua para evitar novos problemas. Ative e acompanhe alertas e notificações Monitore: - transações em contas e faturas de cartões de crédito - histórico de logins e sessões ativas (verifique se há aparelhos desconhecidos conectados) - seu score de crédito (quedas podem ser indício de uso indevido do seu CPF) Confira seus registros financeiros no Banco Cen- tral, via sistema “Registrato” https://registrato.bcb.gov.br/"
+  },
+  {
+    "id": "chunk_certbr_060",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "Golpes: Evite Fraudes Golpes: Não se Deixe Enganar V eja mais sobre golpes e fraudes nos e “Golpes: Evite Fraudes”."
+  },
+  {
+    "id": "chunk_certbr_061",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "SAIBA MAIS Para mais detalhes sobre este e outros assuntos relacionados com cuidados na da Cartilha de Segurança para Internet, Procurando material para conversar sobre segurança com diferentes públicos? O Portal Internet Segura apresenta uma série de materiais focados em crianças, adolescentes, pais, responsáveis e educadores, confira em: https://internetsegura.br/"
+  },
+  {
+    "id": "chunk_certbr_062",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "O CERT.br (https://cert.br/) é um Grupo de Resposta a Incidentes de Segurança (CSIRT) de responsabilidade nacional de último recurso, mantido pelo NIC.br. Além da gestão de incidentes, também atua na conscientização sobre os problemas de segurança, na consciência situa- cional e transferência de conhecimento, sempre respal- dado por forte integração com as comunidades nacional e internacional de CSIRT s."
+  },
+  {
+    "id": "chunk_certbr_063",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "Além da gestão de incidentes, também atua na conscientização sobre os problemas de segurança, na consciência situa- cional e transferência de conhecimento, sempre respal- dado por forte integração com as comunidades nacional e internacional de CSIRT s. O Núcleo de Informação e Coordenação do Ponto BR - NIC.br (https://nic.br/) é uma entidade civil de direito privado e sem fins de lucro, encarregada da operação do domínio .br, bem como da distribuição de números IP e do registro de Sistemas Autônomos no País."
+  },
+  {
+    "id": "chunk_certbr_064",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "O Núcleo de Informação e Coordenação do Ponto BR - NIC.br (https://nic.br/) é uma entidade civil de direito privado e sem fins de lucro, encarregada da operação do domínio .br, bem como da distribuição de números IP e do registro de Sistemas Autônomos no País. Conduz ações e projetos que trazem benefícios à infraestrutura da Internet no Brasil."
+  },
+  {
+    "id": "chunk_certbr_065",
+    "fonte": "CERT.br - Cartilha de Segurança para a Internet (Golpes: Caiu? Veja o que Fazer)",
+    "url": "https://cartilha.cert.br/fasciculos/#golpes-o-que-fazer",
+    "licenca": "CC BY-NC-SA 4.0",
+    "tipo_golpe": "resposta_a_golpes",
+    "conteudo": "Conduz ações e projetos que trazem benefícios à infraestrutura da Internet no Brasil. O Comitê Gestor da Internet no Brasil (https://cgi.br/), responsável por estabelecer diretrizes estratégicas relacionadas ao uso e desenvolvimento da Internet no Brasil, coordena e integra todas as iniciativas de servi- ços Internet no País, promovendo a qualidade técnica, a inovação e a disseminação dos serviços ofertados. maio / 2026"
+  },
+  {
+    "id": "chunk_febraban_001",
+    "fonte": "Febraban Antifraudes - Golpe da falsa central de atendimento",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/2/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falsa_central_atendimento",
+    "conteudo": "Como é O fraudador entra em contato com a vítima se passando por um falso funcionário do banco ou empresa com a qual ela tem um relacionamento ativo. Informa que sua conta foi invadida, clonada ou outro problema e, a partir daí, solicita os dados pessoais e financeiros da vítima. E até mesmo pede para que ela ligue na central do banco, no número que aparece atrás do seu cartão, mas o fraudador continua na linha para simular o atendimento da central e pedir os dados da sua conta, dos seus cartões e, principalmente, a sua senha quando você a digitar."
+  },
+  {
+    "id": "chunk_febraban_002",
+    "fonte": "Febraban Antifraudes - Golpe da falsa central de atendimento",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/2/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falsa_central_atendimento",
+    "conteudo": "Como evitar Recebeu uma ligação minimamente parecida com essa? Não perca tempo: DESLIGA NA HORA . Não fique dando trela para golpistas e criminosos. Depois de desligar na cara dele, pegue outro telefone e ligue para o número oficial do seu banco, aquele que fica atrás do seu cartão. O fraudador entra em contato com a vítima se passando por um falso funcionário do banco ou empresa com a qual ela tem um relacionamento ativo."
+  },
+  {
+    "id": "chunk_febraban_003",
+    "fonte": "Febraban Antifraudes - Golpe da falsa central de atendimento",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/2/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falsa_central_atendimento",
+    "conteudo": "O fraudador entra em contato com a vítima se passando por um falso funcionário do banco ou empresa com a qual ela tem um relacionamento ativo. Informa que sua conta foi invadida, clonada ou outro problema e, a partir daí, solicita os dados pessoais e financeiros da vítima. E até mesmo pede para que ela ligue na central do banco, no número que aparece atrás do seu cartão, mas o fraudador continua na linha para simular o atendimento da central e pedir os dados da sua conta, dos seus cartões e, principalmente, a sua senha quando você a digitar."
+  },
+  {
+    "id": "chunk_febraban_004",
+    "fonte": "Febraban Antifraudes - Golpe da falsa central de atendimento",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/2/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falsa_central_atendimento",
+    "conteudo": "Recebeu uma ligação minimamente parecida com essa? Não perca tempo: DESLIGA NA HORA . Não fique dando trela para golpistas e criminosos. Depois de desligar na cara dele, pegue outro telefone e ligue para o número oficial do seu banco, aquele que fica atrás do seu cartão."
+  },
+  {
+    "id": "chunk_febraban_005",
+    "fonte": "Febraban Antifraudes - Golpe Falsa Venda",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/13/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falsa_venda_ecommerce",
+    "conteudo": "Como é: Criminosos criam páginas falsas que simulam e-commerce, enviam promoções inexistentes por e-mails, SMS e mensagens de WhatsApp e investem na criação de perfis falsos de lojas em redes sociais. Como evitar: Sempre fique muito atento. O produto tem um preço médio no comércio de R$ 1.000,00, mas alguém está anunciando o mesmo item por R$ 300,00? Há fotos e vídeos de antes e depois de produtos com resultados mirabolantes? A loja oferece poucas opções de pagamento? O e-commerce é recém-criado em rede social?"
+  },
+  {
+    "id": "chunk_febraban_006",
+    "fonte": "Febraban Antifraudes - Golpe Falsa Venda",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/13/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falsa_venda_ecommerce",
+    "conteudo": "O e-commerce é recém-criado em rede social? Pare, pense e desconfie. Pode ser golpe. Tome muito cuidado com links recebidos em e-mails e mensagens e dê preferência aos sites conhecidos para as compras. Como é: Criminosos criam páginas falsas que simulam e-commerce, enviam promoções inexistentes por e-mails, SMS e mensagens de WhatsApp e investem na criação de perfis falsos de lojas em redes sociais. Como evitar: Sempre fique muito atento."
+  },
+  {
+    "id": "chunk_febraban_007",
+    "fonte": "Febraban Antifraudes - Golpe Falsa Venda",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/13/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falsa_venda_ecommerce",
+    "conteudo": "Como evitar: Sempre fique muito atento. O produto tem um preço médio no comércio de R$ 1.000,00, mas alguém está anunciando o mesmo item por R$ 300,00? Há fotos e vídeos de antes e depois de produtos com resultados mirabolantes? A loja oferece poucas opções de pagamento? O e-commerce é recém-criado em rede social? Pare, pense e desconfie. Pode ser golpe. Tome muito cuidado com links recebidos em e-mails e mensagens e dê preferência aos sites conhecidos para as compras."
+  },
+  {
+    "id": "chunk_febraban_008",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Como é Os golpistas descobrem o número do celular e o nome da vítima de quem pretendem clonar a conta de WhatsApp. Com essas informações em mãos, os criminosos tentam cadastrar o WhatsApp da vítima nos aparelhos deles. Para concluir a operação, é preciso inserir o código de segurança que o aplicativo envia por SMS sempre que é instalado em um novo dispositivo. Os fraudadores enviam uma mensagem pelo WhatsApp fingindo ser do Serviço de Atendimento ao Cliente do site de vendas ou da empresa em que a vítima tem cadastro."
+  },
+  {
+    "id": "chunk_febraban_009",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Os fraudadores enviam uma mensagem pelo WhatsApp fingindo ser do Serviço de Atendimento ao Cliente do site de vendas ou da empresa em que a vítima tem cadastro. Eles solicitam o código de segurança, que já foi enviado por SMS pelo aplicativo, afirmando se tratar de uma atualização, manutenção ou confirmação de cadastro. Com o código, os bandidos conseguem replicar a conta de WhatsApp em outro celular, têm acesso a todo o histórico de conversas e contatos."
+  },
+  {
+    "id": "chunk_febraban_010",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Com o código, os bandidos conseguem replicar a conta de WhatsApp em outro celular, têm acesso a todo o histórico de conversas e contatos. A partir daí, os criminosos enviam mensagens para os contatos, passando-se pela pessoa, pedindo dinheiro emprestado. Desconfie de pessoas pedindo dinheiro ou seus dados por aplicativos de mensagem. Geralmente os golpistas apelam para alguma urgência falsa e pedem depósitos e transferências via Pix para contas de terceiros ou então para pagar alguma conta."
+  },
+  {
+    "id": "chunk_febraban_011",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Geralmente os golpistas apelam para alguma urgência falsa e pedem depósitos e transferências via Pix para contas de terceiros ou então para pagar alguma conta. Como evitar Primeiro de tudo: vá para as configurações do seu Whatsapp, clique em CONTA, depois em CONFIRMAÇÃO EM DUAS ETAPAS e habilite essa funcionalidade. Com ela ativada, fica muito mais difícil para criminosos clonarem seu aplicativo de mensagens."
+  },
+  {
+    "id": "chunk_febraban_012",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Com ela ativada, fica muito mais difícil para criminosos clonarem seu aplicativo de mensagens. É uma boa, também, deixar sua foto de perfil visível apenas para seus contatos, para que ela não possa ser usada por alguém que quer se passar por você. O mais importante: NUNCA compartilhe seu código de segurança. E se algum amigo ou parente entrar em contato pedindo dinheiro, tenha certeza de que é a pessoa mesmo, e não um golpista. Os golpistas descobrem o número do celular e o nome da vítima de quem pretendem clonar a conta de WhatsApp."
+  },
+  {
+    "id": "chunk_febraban_013",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Os golpistas descobrem o número do celular e o nome da vítima de quem pretendem clonar a conta de WhatsApp. Com essas informações em mãos, os criminosos tentam cadastrar o WhatsApp da vítima nos aparelhos deles. Para concluir a operação, é preciso inserir o código de segurança que o aplicativo envia por SMS sempre que é instalado em um novo dispositivo. Os fraudadores enviam uma mensagem pelo WhatsApp fingindo ser do Serviço de Atendimento ao Cliente do site de vendas ou da empresa em que a vítima tem cadastro."
+  },
+  {
+    "id": "chunk_febraban_014",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Os fraudadores enviam uma mensagem pelo WhatsApp fingindo ser do Serviço de Atendimento ao Cliente do site de vendas ou da empresa em que a vítima tem cadastro. Eles solicitam o código de segurança, que já foi enviado por SMS pelo aplicativo, afirmando se tratar de uma atualização, manutenção ou confirmação de cadastro. Com o código, os bandidos conseguem replicar a conta de WhatsApp em outro celular, têm acesso a todo o histórico de conversas e contatos."
+  },
+  {
+    "id": "chunk_febraban_015",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Com o código, os bandidos conseguem replicar a conta de WhatsApp em outro celular, têm acesso a todo o histórico de conversas e contatos. A partir daí, os criminosos enviam mensagens para os contatos, passando-se pela pessoa, pedindo dinheiro emprestado. Desconfie de pessoas pedindo dinheiro ou seus dados por aplicativos de mensagem. Geralmente os golpistas apelam para alguma urgência falsa e pedem depósitos e transferências via Pix para contas de terceiros ou então para pagar alguma conta."
+  },
+  {
+    "id": "chunk_febraban_016",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Geralmente os golpistas apelam para alguma urgência falsa e pedem depósitos e transferências via Pix para contas de terceiros ou então para pagar alguma conta. Primeiro de tudo: vá para as configurações do seu Whatsapp, clique em CONTA, depois em CONFIRMAÇÃO EM DUAS ETAPAS e habilite essa funcionalidade. Com ela ativada, fica muito mais difícil para criminosos clonarem seu aplicativo de mensagens."
+  },
+  {
+    "id": "chunk_febraban_017",
+    "fonte": "Febraban Antifraudes - Golpe do Whatsapp",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/7/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_whatsapp",
+    "conteudo": "Com ela ativada, fica muito mais difícil para criminosos clonarem seu aplicativo de mensagens. É uma boa, também, deixar sua foto de perfil visível apenas para seus contatos, para que ela não possa ser usada por alguém que quer se passar por você. O mais importante: NUNCA compartilhe seu código de segurança. E se algum amigo ou parente entrar em contato pedindo dinheiro, tenha certeza de que é a pessoa mesmo, e não um golpista."
+  },
+  {
+    "id": "chunk_febraban_018",
+    "fonte": "Febraban Antifraudes - Golpe acesso remoto ou mão fantasma",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/9/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "mao_fantasma_acesso_remoto",
+    "conteudo": "Como é O fraudador entra em contato se passando por um falso funcionário do banco e informa que que há movimentações suspeitas na conta da vítima. Avisa que ela foi invadida, clonada, entre outras artimanhas. Ele diz que para solucionar o problema, é necessário a instalação de um aplicativo. Mas, se o cliente instalar o aplicativo, o criminoso terá acesso a todos os dados que estão no celular. Como evitar Se alguém entrou em contato e falou para você instalar um aplicativo no seu celular, DESLIGUE NA HORA."
+  },
+  {
+    "id": "chunk_febraban_019",
+    "fonte": "Febraban Antifraudes - Golpe acesso remoto ou mão fantasma",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/9/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "mao_fantasma_acesso_remoto",
+    "conteudo": "Como evitar Se alguém entrou em contato e falou para você instalar um aplicativo no seu celular, DESLIGUE NA HORA. Nenhum banco pede uma coisa dessas . Depois de desligar, entre em contato com sua instituição financeira pelos canais oficiais. O fraudador entra em contato se passando por um falso funcionário do banco e informa que que há movimentações suspeitas na conta da vítima. Avisa que ela foi invadida, clonada, entre outras artimanhas. Ele diz que para solucionar o problema, é necessário a instalação de um aplicativo."
+  },
+  {
+    "id": "chunk_febraban_020",
+    "fonte": "Febraban Antifraudes - Golpe acesso remoto ou mão fantasma",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/9/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "mao_fantasma_acesso_remoto",
+    "conteudo": "Ele diz que para solucionar o problema, é necessário a instalação de um aplicativo. Mas, se o cliente instalar o aplicativo, o criminoso terá acesso a todos os dados que estão no celular. Se alguém entrou em contato e falou para você instalar um aplicativo no seu celular, DESLIGUE NA HORA. Nenhum banco pede uma coisa dessas . Depois de desligar, entre em contato com sua instituição financeira pelos canais oficiais."
+  },
+  {
+    "id": "chunk_febraban_021",
+    "fonte": "Febraban Antifraudes - Golpe do falso motoboy",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/3/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_motoboy",
+    "conteudo": "Como é O golpe começa quando o cliente recebe uma ligação do golpista que se passa por funcionário do banco, dizendo que o cartão foi fraudado. O falso funcionário solicita a senha e pede que o cartão seja cortado, mas que o chip não seja danificado. Em seguida, diz que o cartão será retirado na casa do cliente. O outro golpista aparece onde a vítima está e retira o cartão. Mesmo com o cartão cortado, o chip está intacto e os fraudadores podem utilizá-lo para fazer transações e roubar o dinheiro da vítima."
+  },
+  {
+    "id": "chunk_febraban_022",
+    "fonte": "Febraban Antifraudes - Golpe do falso motoboy",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/3/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_motoboy",
+    "conteudo": "Mesmo com o cartão cortado, o chip está intacto e os fraudadores podem utilizá-lo para fazer transações e roubar o dinheiro da vítima. Como evitar Alguém entrou em contato com essa conversa de cortar o seu cartão e dá-lo para alguém? É golpe! DESLIGUE O TELEFONE e, mais importante, NUNCA entregue seus cartões para ninguém. Os bancos nunca pedem cartões de volta, muito menos dizem que vão enviar alguém para pegá-los."
+  },
+  {
+    "id": "chunk_febraban_023",
+    "fonte": "Febraban Antifraudes - Golpe do falso motoboy",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/3/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_motoboy",
+    "conteudo": "Os bancos nunca pedem cartões de volta, muito menos dizem que vão enviar alguém para pegá-los. O golpe começa quando o cliente recebe uma ligação do golpista que se passa por funcionário do banco, dizendo que o cartão foi fraudado. O falso funcionário solicita a senha e pede que o cartão seja cortado, mas que o chip não seja danificado. Em seguida, diz que o cartão será retirado na casa do cliente. O outro golpista aparece onde a vítima está e retira o cartão."
+  },
+  {
+    "id": "chunk_febraban_024",
+    "fonte": "Febraban Antifraudes - Golpe do falso motoboy",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/3/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_motoboy",
+    "conteudo": "O outro golpista aparece onde a vítima está e retira o cartão. Mesmo com o cartão cortado, o chip está intacto e os fraudadores podem utilizá-lo para fazer transações e roubar o dinheiro da vítima. Alguém entrou em contato com essa conversa de cortar o seu cartão e dá-lo para alguém? É golpe! DESLIGUE O TELEFONE e, mais importante, NUNCA entregue seus cartões para ninguém. Os bancos nunca pedem cartões de volta, muito menos dizem que vão enviar alguém para pegá-los."
+  },
+  {
+    "id": "chunk_febraban_025",
+    "fonte": "Febraban Antifraudes - Golpe do Pix errado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/1/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "pix_errado_comprovante_falso",
+    "conteudo": "Como é O golpista envia um Pix para a conta da vítima. Em seguida manda uma mensagem ou liga dizendo que o Pix foi enviado por engano e pede para que a pessoa devolva o dinheiro. Só que ao invés de dar a chave Pix da transferência original, o golpista fornece uma chave de uma terceira conta. Quando a vítima devolve o dinheiro para essa terceira conta, o bandido aciona o MED (Mecanismo Especial de Devolução) para tentar obter de volta o Pix originalmente enviado à vítima."
+  },
+  {
+    "id": "chunk_febraban_026",
+    "fonte": "Febraban Antifraudes - Golpe do Pix errado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/1/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "pix_errado_comprovante_falso",
+    "conteudo": "Quando a vítima devolve o dinheiro para essa terceira conta, o bandido aciona o MED (Mecanismo Especial de Devolução) para tentar obter de volta o Pix originalmente enviado à vítima. Se tiver êxito, além de receber o dinheiro enviado pela vítima, o bandido recebe também o valor pelo MED e a vítima fica no prejuízo. Como evitar Ao receber um pedido de estorno de Pix por qualquer motivo, o cliente sempre deve fazer a transação para a conta original que o Pix foi feito."
+  },
+  {
+    "id": "chunk_febraban_027",
+    "fonte": "Febraban Antifraudes - Golpe do Pix errado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/1/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "pix_errado_comprovante_falso",
+    "conteudo": "Como evitar Ao receber um pedido de estorno de Pix por qualquer motivo, o cliente sempre deve fazer a transação para a conta original que o Pix foi feito. Para isso a pessoa deve entrar em seu aplicativo bancário e, dentro das funcionalidades do Pix, utilizar a opção de devolução da transação recebida, que automaticamente envia o valor para a conta de origem. O golpista envia um Pix para a conta da vítima. Em seguida manda uma mensagem ou liga dizendo que o Pix foi enviado por engano e pede para que a pessoa devolva o dinheiro."
+  },
+  {
+    "id": "chunk_febraban_028",
+    "fonte": "Febraban Antifraudes - Golpe do Pix errado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/1/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "pix_errado_comprovante_falso",
+    "conteudo": "Em seguida manda uma mensagem ou liga dizendo que o Pix foi enviado por engano e pede para que a pessoa devolva o dinheiro. Só que ao invés de dar a chave Pix da transferência original, o golpista fornece uma chave de uma terceira conta. Quando a vítima devolve o dinheiro para essa terceira conta, o bandido aciona o MED (Mecanismo Especial de Devolução) para tentar obter de volta o Pix originalmente enviado à vítima."
+  },
+  {
+    "id": "chunk_febraban_029",
+    "fonte": "Febraban Antifraudes - Golpe do Pix errado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/1/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "pix_errado_comprovante_falso",
+    "conteudo": "Quando a vítima devolve o dinheiro para essa terceira conta, o bandido aciona o MED (Mecanismo Especial de Devolução) para tentar obter de volta o Pix originalmente enviado à vítima. Se tiver êxito, além de receber o dinheiro enviado pela vítima, o bandido recebe também o valor pelo MED e a vítima fica no prejuízo. Ao receber um pedido de estorno de Pix por qualquer motivo, o cliente sempre deve fazer a transação para a conta original que o Pix foi feito."
+  },
+  {
+    "id": "chunk_febraban_030",
+    "fonte": "Febraban Antifraudes - Golpe do Pix errado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/1/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "pix_errado_comprovante_falso",
+    "conteudo": "Ao receber um pedido de estorno de Pix por qualquer motivo, o cliente sempre deve fazer a transação para a conta original que o Pix foi feito. Para isso a pessoa deve entrar em seu aplicativo bancário e, dentro das funcionalidades do Pix, utilizar a opção de devolução da transação recebida, que automaticamente envia o valor para a conta de origem."
+  },
+  {
+    "id": "chunk_febraban_031",
+    "fonte": "Febraban Antifraudes - Golpe da troca de cartão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/4/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "troca_cartao",
+    "conteudo": "Como é Golpistas que trabalham como vendedores prestam atenção quando você digita sua senha na máquina de compra e depois trocam o cartão na hora de devolvê-lo. Com seu cartão e senha, fazem compras usando o seu dinheiro. O mesmo pode acontecer com desconhecidos oferecendo ajuda no caixa eletrônico. Eles se aproveitam de alguma dificuldade sua no terminal eletrônico para pegar rapidamente o seu cartão e depois devolver um que não é seu, ao mesmo tempo que espiam sua senha."
+  },
+  {
+    "id": "chunk_febraban_032",
+    "fonte": "Febraban Antifraudes - Golpe da troca de cartão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/4/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "troca_cartao",
+    "conteudo": "Eles se aproveitam de alguma dificuldade sua no terminal eletrônico para pegar rapidamente o seu cartão e depois devolver um que não é seu, ao mesmo tempo que espiam sua senha. Como evitar Quando você for fazer uma compra com seu cartão físico, lembre-se dos SEMPRE: sempre cheque o valor na tela da maquininha, sempre confira se o cartão que te devolveram é o seu mesmo e sempre passe você o cartão na maquininha. Não entregue cartões para ninguém."
+  },
+  {
+    "id": "chunk_febraban_033",
+    "fonte": "Febraban Antifraudes - Golpe da troca de cartão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/4/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "troca_cartao",
+    "conteudo": "Não entregue cartões para ninguém. Golpistas que trabalham como vendedores prestam atenção quando você digita sua senha na máquina de compra e depois trocam o cartão na hora de devolvê-lo. Com seu cartão e senha, fazem compras usando o seu dinheiro. O mesmo pode acontecer com desconhecidos oferecendo ajuda no caixa eletrônico. Eles se aproveitam de alguma dificuldade sua no terminal eletrônico para pegar rapidamente o seu cartão e depois devolver um que não é seu, ao mesmo tempo que espiam sua senha."
+  },
+  {
+    "id": "chunk_febraban_034",
+    "fonte": "Febraban Antifraudes - Golpe da troca de cartão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/4/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "troca_cartao",
+    "conteudo": "Eles se aproveitam de alguma dificuldade sua no terminal eletrônico para pegar rapidamente o seu cartão e depois devolver um que não é seu, ao mesmo tempo que espiam sua senha. Quando você for fazer uma compra com seu cartão físico, lembre-se dos SEMPRE: sempre cheque o valor na tela da maquininha, sempre confira se o cartão que te devolveram é o seu mesmo e sempre passe você o cartão na maquininha. Não entregue cartões para ninguém."
+  },
+  {
+    "id": "chunk_febraban_035",
+    "fonte": "Febraban Antifraudes - Golpe do link falso ou Phishing",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/8/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "phishing",
+    "conteudo": "Como é O phishing, ou pescaria digital, é uma fraude eletrônica cometida pelos fraudadores (engenheiros sociais) que visa obter as senhas e dados pessoais do usuário. A forma mais comum de um ataque de phishing são as mensagens em e-mails, SMS, aplicativos de mensagens como WhatsApp, redes sociais que induzem o usuário a clicar em links maliciosos. Também existem páginas falsas na internet que induzem a pessoa a revelar as senhas e dados pessoais."
+  },
+  {
+    "id": "chunk_febraban_036",
+    "fonte": "Febraban Antifraudes - Golpe do link falso ou Phishing",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/8/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "phishing",
+    "conteudo": "Também existem páginas falsas na internet que induzem a pessoa a revelar as senhas e dados pessoais. Os casos mais comuns de phishing são e-mails recebidos de supostos bancos com mensagens que afirmam que a conta do cliente está irregular, ou o cartão ultrapassou o limite, atualização de token ou ainda que existe um novo software de segurança do banco que precisa ser instalado imediatamente pelo usuário. Como evitar Vamos lá. Recebeu um link de uma pessoa que você não conhece? Não clique."
+  },
+  {
+    "id": "chunk_febraban_037",
+    "fonte": "Febraban Antifraudes - Golpe do link falso ou Phishing",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/8/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "phishing",
+    "conteudo": "Não clique. O seu banco te mandou um e-mail falando para clicar no link? Não clique . Vai usar o seu cartão na internet? Verifique o endereço no site para ter certeza de que é o verdadeiro. Desconfie de lojas online desconhecidas, prefira as que você já conhece. Nunca use computadores públicos (de bibliotecas. lan houses, escritório, etc.) para fazer compras. E não repasse nenhum código que você recebeu a ninguém. Ficou na dúvida? Não clique ."
+  },
+  {
+    "id": "chunk_febraban_038",
+    "fonte": "Febraban Antifraudes - Golpe do link falso ou Phishing",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/8/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "phishing",
+    "conteudo": "Não clique . O phishing, ou pescaria digital, é uma fraude eletrônica cometida pelos fraudadores (engenheiros sociais) que visa obter as senhas e dados pessoais do usuário. A forma mais comum de um ataque de phishing são as mensagens em e-mails, SMS, aplicativos de mensagens como WhatsApp, redes sociais que induzem o usuário a clicar em links maliciosos. Também existem páginas falsas na internet que induzem a pessoa a revelar as senhas e dados pessoais."
+  },
+  {
+    "id": "chunk_febraban_039",
+    "fonte": "Febraban Antifraudes - Golpe do link falso ou Phishing",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/8/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "phishing",
+    "conteudo": "Também existem páginas falsas na internet que induzem a pessoa a revelar as senhas e dados pessoais. Os casos mais comuns de phishing são e-mails recebidos de supostos bancos com mensagens que afirmam que a conta do cliente está irregular, ou o cartão ultrapassou o limite, atualização de token ou ainda que existe um novo software de segurança do banco que precisa ser instalado imediatamente pelo usuário. Vamos lá. Recebeu um link de uma pessoa que você não conhece? Não clique."
+  },
+  {
+    "id": "chunk_febraban_040",
+    "fonte": "Febraban Antifraudes - Golpe do link falso ou Phishing",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/8/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "phishing",
+    "conteudo": "Não clique. O seu banco te mandou um e-mail falando para clicar no link? Não clique . Vai usar o seu cartão na internet? Verifique o endereço no site para ter certeza de que é o verdadeiro. Desconfie de lojas online desconhecidas, prefira as que você já conhece. Nunca use computadores públicos (de bibliotecas. lan houses, escritório, etc.) para fazer compras. E não repasse nenhum código que você recebeu a ninguém. Ficou na dúvida? Não clique ."
+  },
+  {
+    "id": "chunk_febraban_041",
+    "fonte": "Febraban Antifraudes - Golpe do falso investimento",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/11/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_investimento",
+    "conteudo": "Como é Golpistas entram em contato com o usuário oferecendo uma série de investimentos com retornos super rápidos, ou imediatos, e lucros vantajosos em um primeiro momento. À medida que os depósitos vão subindo e o valor é interessante pra o golpista ele some sem retornar o último investimento prometido. Como evitar Gente, não existe dinheiro fácil. Alguém entrou em contato falando de uma oportunidade de ganhar muito dinheiro em pouco tempo? É golpe na certa. Não caia nesse papo, não faça transações que prometem esse tipo de coisa."
+  },
+  {
+    "id": "chunk_febraban_042",
+    "fonte": "Febraban Antifraudes - Golpe do falso investimento",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/11/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_investimento",
+    "conteudo": "Não caia nesse papo, não faça transações que prometem esse tipo de coisa. Golpistas entram em contato com o usuário oferecendo uma série de investimentos com retornos super rápidos, ou imediatos, e lucros vantajosos em um primeiro momento. À medida que os depósitos vão subindo e o valor é interessante pra o golpista ele some sem retornar o último investimento prometido. Gente, não existe dinheiro fácil. Alguém entrou em contato falando de uma oportunidade de ganhar muito dinheiro em pouco tempo? É golpe na certa."
+  },
+  {
+    "id": "chunk_febraban_043",
+    "fonte": "Febraban Antifraudes - Golpe do falso investimento",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/11/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_investimento",
+    "conteudo": "É golpe na certa. Não caia nesse papo, não faça transações que prometem esse tipo de coisa."
+  },
+  {
+    "id": "chunk_febraban_044",
+    "fonte": "Febraban Antifraudes - Golpe Falso Boleto",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/14/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_boleto",
+    "conteudo": "Como é: Os criminosos apostam na desatenção dos pagadores para aplicar golpes, falsificam boletos e colocam seus dados bancários para que recebam o crédito do documento de pagamento. Como evitar: Confira com atenção os dados do beneficiário do boleto tais como CPF ou CNPJ do emissor, data de vencimento e valor."
+  },
+  {
+    "id": "chunk_febraban_045",
+    "fonte": "Febraban Antifraudes - Golpe Falso Boleto",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/14/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_boleto",
+    "conteudo": "Como evitar: Confira com atenção os dados do beneficiário do boleto tais como CPF ou CNPJ do emissor, data de vencimento e valor. No momento do pagamento, independente do canal utilizado (caixa eletrônico, mobile bank, internet bank etc.), os dados do beneficiário (a empresa que receberá o dinheiro) serão mostrados, o que permite ao pagador realizar a conferência com os dados que constam do boleto físico que está em suas mãos. Se a conta em questão não pertencer ao beneficiário correto, o cliente não deve concluir a operação."
+  },
+  {
+    "id": "chunk_febraban_046",
+    "fonte": "Febraban Antifraudes - Golpe Falso Boleto",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/14/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_boleto",
+    "conteudo": "Se a conta em questão não pertencer ao beneficiário correto, o cliente não deve concluir a operação. Em caso de qualquer dúvida, o cliente deve entrar em contato com o SAC da empresa. Como é: Os criminosos apostam na desatenção dos pagadores para aplicar golpes, falsificam boletos e colocam seus dados bancários para que recebam o crédito do documento de pagamento. Como evitar: Confira com atenção os dados do beneficiário do boleto tais como CPF ou CNPJ do emissor, data de vencimento e valor."
+  },
+  {
+    "id": "chunk_febraban_047",
+    "fonte": "Febraban Antifraudes - Golpe Falso Boleto",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/14/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_boleto",
+    "conteudo": "Como evitar: Confira com atenção os dados do beneficiário do boleto tais como CPF ou CNPJ do emissor, data de vencimento e valor. No momento do pagamento, independente do canal utilizado (caixa eletrônico, mobile bank, internet bank etc.), os dados do beneficiário (a empresa que receberá o dinheiro) serão mostrados, o que permite ao pagador realizar a conferência com os dados que constam do boleto físico que está em suas mãos. Se a conta em questão não pertencer ao beneficiário correto, o cliente não deve concluir a operação."
+  },
+  {
+    "id": "chunk_febraban_048",
+    "fonte": "Febraban Antifraudes - Golpe Falso Boleto",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/14/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_boleto",
+    "conteudo": "Se a conta em questão não pertencer ao beneficiário correto, o cliente não deve concluir a operação. Em caso de qualquer dúvida, o cliente deve entrar em contato com o SAC da empresa."
+  },
+  {
+    "id": "chunk_febraban_049",
+    "fonte": "Febraban Antifraudes - Golpe do falso empréstimo",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/10/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_emprestimo",
+    "conteudo": "Como é As quadrilhas se passam por falsas instituições financeiras e fazem anúncios oferecendo crédito com condições muito atrativas na internet. Quando o interessado preenche o cadastro nesses sites, os bandidos entram em contato e enviam um suposto contrato com diversas multas para evitar desistência. E, para que o falso empréstimo seja liberado, pedem um pagamento de taxas e impostos. Como evitar Nenhuma linha de crédito precisa de pagamento antecipado para ser liberada. Fique de olho."
+  },
+  {
+    "id": "chunk_febraban_050",
+    "fonte": "Febraban Antifraudes - Golpe do falso empréstimo",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/10/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_emprestimo",
+    "conteudo": "Fique de olho. Se alguma \"instituição financeira\" te liga falando de um empréstimo com taxas ótimas, desconfie. E se, acima de tudo, pediu uma transferência para confirmar, é golpe na certa. Desligue o telefone . As quadrilhas se passam por falsas instituições financeiras e fazem anúncios oferecendo crédito com condições muito atrativas na internet. Quando o interessado preenche o cadastro nesses sites, os bandidos entram em contato e enviam um suposto contrato com diversas multas para evitar desistência."
+  },
+  {
+    "id": "chunk_febraban_051",
+    "fonte": "Febraban Antifraudes - Golpe do falso empréstimo",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/10/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_emprestimo",
+    "conteudo": "Quando o interessado preenche o cadastro nesses sites, os bandidos entram em contato e enviam um suposto contrato com diversas multas para evitar desistência. E, para que o falso empréstimo seja liberado, pedem um pagamento de taxas e impostos. Nenhuma linha de crédito precisa de pagamento antecipado para ser liberada. Fique de olho. Se alguma \"instituição financeira\" te liga falando de um empréstimo com taxas ótimas, desconfie. E se, acima de tudo, pediu uma transferência para confirmar, é golpe na certa. Desligue o telefone ."
+  },
+  {
+    "id": "chunk_febraban_052",
+    "fonte": "Febraban Antifraudes - Golpe da maquininha quebrada",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/5/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "maquininha_quebrada_presente",
+    "conteudo": "Como é O golpe do delivery costuma ter alguns tipos de abordagens e algumas variações. O golpe começa quando você faz um pedido por aplicativo, no momento da entrega, é apresentada uma maquininha com o visor danificado ou o golpista se posiciona de uma forma que a vítima não veja o preço cobrado na tela. O valor inserido é bem superior ao pedido e a vítima só percebe que fez um pagamento maior depois de um tempo."
+  },
+  {
+    "id": "chunk_febraban_053",
+    "fonte": "Febraban Antifraudes - Golpe da maquininha quebrada",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/5/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "maquininha_quebrada_presente",
+    "conteudo": "O valor inserido é bem superior ao pedido e a vítima só percebe que fez um pagamento maior depois de um tempo. Pode ocorrer também um formato que a compra já foi paga pelo aplicativo, mas a vítima é convencida que ocorreu um problema e é cobrada novamente ou cobrado algum frete adicional, normalmente também colocam um valor maior. Também podem simular uma ligação de uma falsa central informando problemas na cobrança no cartão e solicitam os dados de cobrança da vítima."
+  },
+  {
+    "id": "chunk_febraban_054",
+    "fonte": "Febraban Antifraudes - Golpe da maquininha quebrada",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/5/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "maquininha_quebrada_presente",
+    "conteudo": "Também podem simular uma ligação de uma falsa central informando problemas na cobrança no cartão e solicitam os dados de cobrança da vítima. Como evitar Chegou alguém pedindo para você passar o cartão em uma maquininha com a tela quebrada? Não passe seu cartão em telas com defeito. É golpe. Se acontecer essa situação com você, não aceite fazer pagamentos. E tem mais: se você já fez o pagamento e, na entrega, pedem para pagar uma taxa extra, também é golpe. Não pague ."
+  },
+  {
+    "id": "chunk_febraban_055",
+    "fonte": "Febraban Antifraudes - Golpe da maquininha quebrada",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/5/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "maquininha_quebrada_presente",
+    "conteudo": "Não pague . O golpe do delivery costuma ter alguns tipos de abordagens e algumas variações. O golpe começa quando você faz um pedido por aplicativo, no momento da entrega, é apresentada uma maquininha com o visor danificado ou o golpista se posiciona de uma forma que a vítima não veja o preço cobrado na tela. O valor inserido é bem superior ao pedido e a vítima só percebe que fez um pagamento maior depois de um tempo."
+  },
+  {
+    "id": "chunk_febraban_056",
+    "fonte": "Febraban Antifraudes - Golpe da maquininha quebrada",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/5/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "maquininha_quebrada_presente",
+    "conteudo": "O valor inserido é bem superior ao pedido e a vítima só percebe que fez um pagamento maior depois de um tempo. Pode ocorrer também um formato que a compra já foi paga pelo aplicativo, mas a vítima é convencida que ocorreu um problema e é cobrada novamente ou cobrado algum frete adicional, normalmente também colocam um valor maior. Também podem simular uma ligação de uma falsa central informando problemas na cobrança no cartão e solicitam os dados de cobrança da vítima."
+  },
+  {
+    "id": "chunk_febraban_057",
+    "fonte": "Febraban Antifraudes - Golpe da maquininha quebrada",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/5/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "maquininha_quebrada_presente",
+    "conteudo": "Também podem simular uma ligação de uma falsa central informando problemas na cobrança no cartão e solicitam os dados de cobrança da vítima. Chegou alguém pedindo para você passar o cartão em uma maquininha com a tela quebrada? Não passe seu cartão em telas com defeito. É golpe. Se acontecer essa situação com você, não aceite fazer pagamentos. E tem mais: se você já fez o pagamento e, na entrega, pedem para pagar uma taxa extra, também é golpe. Não pague ."
+  },
+  {
+    "id": "chunk_febraban_058",
+    "fonte": "Febraban Antifraudes - Golpe do falso leilão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/6/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_leilao",
+    "conteudo": "Como é Golpistas criam sites falsos de leilão, anunciando todo tipo de produto por preços bem abaixo do mercado. Depois pedem transferências, depósitos e até dinheiro via Pix para assegurar a compra. Geralmente apelam para a urgência em fechar o negócio, dizendo que você pode perder os descontos. Mas nunca entregam as mercadorias pagas. Além disso, os fraudadores podem se aproveitar para roubar informações importantes como CPF e número de conta das vítimas. Como evitar Achou um site de leilões com os preços muito abaixo do esperado?"
+  },
+  {
+    "id": "chunk_febraban_059",
+    "fonte": "Febraban Antifraudes - Golpe do falso leilão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/6/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_leilao",
+    "conteudo": "Como evitar Achou um site de leilões com os preços muito abaixo do esperado? Desconfie. Antes de qualquer coisa, pesquise o nome da empresa em sites de reclamações e, depois disso, confira o CNPJ do leiloeiro. Para se proteger ainda mais, confira se tem um cadeado no canto superior esquerdo do navegador. Ele mostra se o site é seguro. E lembre-se, não faça transferências para contas de pessoas físicas. Golpistas criam sites falsos de leilão, anunciando todo tipo de produto por preços bem abaixo do mercado."
+  },
+  {
+    "id": "chunk_febraban_060",
+    "fonte": "Febraban Antifraudes - Golpe do falso leilão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/6/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_leilao",
+    "conteudo": "Golpistas criam sites falsos de leilão, anunciando todo tipo de produto por preços bem abaixo do mercado. Depois pedem transferências, depósitos e até dinheiro via Pix para assegurar a compra. Geralmente apelam para a urgência em fechar o negócio, dizendo que você pode perder os descontos. Mas nunca entregam as mercadorias pagas. Além disso, os fraudadores podem se aproveitar para roubar informações importantes como CPF e número de conta das vítimas. Achou um site de leilões com os preços muito abaixo do esperado? Desconfie."
+  },
+  {
+    "id": "chunk_febraban_061",
+    "fonte": "Febraban Antifraudes - Golpe do falso leilão",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/6/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_leilao",
+    "conteudo": "Desconfie. Antes de qualquer coisa, pesquise o nome da empresa em sites de reclamações e, depois disso, confira o CNPJ do leiloeiro. Para se proteger ainda mais, confira se tem um cadeado no canto superior esquerdo do navegador. Ele mostra se o site é seguro. E lembre-se, não faça transferências para contas de pessoas físicas."
+  },
+  {
+    "id": "chunk_febraban_062",
+    "fonte": "Febraban Antifraudes - Golpe da restituição do imposto de renda",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/12/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_imposto_renda",
+    "conteudo": "Como é Os golpistas se passam pela receita federal e criam um e-mail falso dizendo que a vítima pode sacar a restituição, e para isso basta ela clicar no link e seguir o passo a passo. Assim que a vítima clica no link, as informações dela ficam disponíveis para os infratores. Como evitar A \"Receita Federal\" entrou em contato no seu e-mail ou por mensagens? Desconfie. Não clique em nenhum link . Para não cair em golpe, entre você mesmo no site do governo federal e procure as informações que você precisa."
+  },
+  {
+    "id": "chunk_febraban_063",
+    "fonte": "Febraban Antifraudes - Golpe da restituição do imposto de renda",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/12/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_imposto_renda",
+    "conteudo": "Para não cair em golpe, entre você mesmo no site do governo federal e procure as informações que você precisa. Os golpistas se passam pela receita federal e criam um e-mail falso dizendo que a vítima pode sacar a restituição, e para isso basta ela clicar no link e seguir o passo a passo. Assim que a vítima clica no link, as informações dela ficam disponíveis para os infratores. A \"Receita Federal\" entrou em contato no seu e-mail ou por mensagens? Desconfie. Não clique em nenhum link ."
+  },
+  {
+    "id": "chunk_febraban_064",
+    "fonte": "Febraban Antifraudes - Golpe da restituição do imposto de renda",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/12/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_imposto_renda",
+    "conteudo": "Não clique em nenhum link . Para não cair em golpe, entre você mesmo no site do governo federal e procure as informações que você precisa."
+  },
+  {
+    "id": "chunk_febraban_065",
+    "fonte": "Febraban Antifraudes - Golpe do falso advogado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/19/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_advogado",
+    "conteudo": "No golpe do falso advogado, criminosos utilizam indevidamente o nome, a foto e informações reais de profissionais ou escritórios de advocacia para enganar vítimas. Por mensagens, informam sobre uma suposta vitória em processo judicial ou a liberação de valores e solicitam pagamentos antecipados, geralmente via Pix, para custas, taxas ou impostos. Para tornar a fraude mais convincente, também podem enviar documentos falsos e links maliciosos com o objetivo de roubar dados pessoais e financeiros."
+  },
+  {
+    "id": "chunk_febraban_066",
+    "fonte": "Febraban Antifraudes - Golpe do falso advogado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/19/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_advogado",
+    "conteudo": "Para tornar a fraude mais convincente, também podem enviar documentos falsos e links maliciosos com o objetivo de roubar dados pessoais e financeiros. Como se proteger Desconfie de mensagens enviadas por números desconhecidos que se apresentam como seu advogado ou escritório de advocacia. Nunca faça pagamentos para liberar valores de ações judiciais, indenizações ou processos. Fique atento a pedidos urgentes ou pressão para realizar transferências. Não compartilhe dados pessoais, senhas ou informações bancárias por mensagens."
+  },
+  {
+    "id": "chunk_febraban_067",
+    "fonte": "Febraban Antifraudes - Golpe do falso advogado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/19/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_advogado",
+    "conteudo": "Não compartilhe dados pessoais, senhas ou informações bancárias por mensagens. Em caso de dúvida, confirme a informação diretamente com seu advogado pelos canais que você já utiliza. Evite clicar em links ou baixar arquivos enviados por contatos suspeitos. Se receber uma abordagem suspeita Guarde as mensagens, os dados da chave Pix e o número utilizado pelo golpista."
+  },
+  {
+    "id": "chunk_febraban_068",
+    "fonte": "Febraban Antifraudes - Golpe do falso advogado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/19/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_advogado",
+    "conteudo": "Se receber uma abordagem suspeita Guarde as mensagens, os dados da chave Pix e o número utilizado pelo golpista. Em seguida, registre um boletim de ocorrência e, caso tenha compartilhado informações ou realizado alguma transferência, entre em contato imediatamente com sua instituição financeira. No golpe do falso advogado, criminosos utilizam indevidamente o nome, a foto e informações reais de profissionais ou escritórios de advocacia para enganar vítimas."
+  },
+  {
+    "id": "chunk_febraban_069",
+    "fonte": "Febraban Antifraudes - Golpe do falso advogado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/19/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_advogado",
+    "conteudo": "No golpe do falso advogado, criminosos utilizam indevidamente o nome, a foto e informações reais de profissionais ou escritórios de advocacia para enganar vítimas. Por mensagens, informam sobre uma suposta vitória em processo judicial ou a liberação de valores e solicitam pagamentos antecipados, geralmente via Pix, para custas, taxas ou impostos. Para tornar a fraude mais convincente, também podem enviar documentos falsos e links maliciosos com o objetivo de roubar dados pessoais e financeiros."
+  },
+  {
+    "id": "chunk_febraban_070",
+    "fonte": "Febraban Antifraudes - Golpe do falso advogado",
+    "url": "https://portal.febraban.org.br/DetalheAntifraude/19/pt-br/",
+    "licenca": "Uso educacional e informativo público (Febraban)",
+    "tipo_golpe": "falso_advogado",
+    "conteudo": "Para tornar a fraude mais convincente, também podem enviar documentos falsos e links maliciosos com o objetivo de roubar dados pessoais e financeiros. Guarde as mensagens, os dados da chave Pix e o número utilizado pelo golpista. Em seguida, registre um boletim de ocorrência e, caso tenha compartilhado informações ou realizado alguma transferência, entre em contato imediatamente com sua instituição financeira."
+  },
+  {
+    "id": "chunk_bcb_001",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "Em pouco mais de seis meses de funcionamento, o Pix já se tornou um dos meios de pagamento eletrônico mais usados pelos brasileiros, tendo superado, em abril, outras formas como TED, DOC, boleto e cheque somados. O Banco Central (BC) vem atuando na contínua evolução do Pix, tendo estabelecido uma agenda robusta com muitas novidades para 2021. Entre as inovações, está o Mecanismo Especial de Devolução, aprovado pela diretoria colegiada em 2 de junho e que entrará em vigor no aniversário de um ano do Pix, em 16 de novembro."
+  },
+  {
+    "id": "chunk_bcb_002",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "Entre as inovações, está o Mecanismo Especial de Devolução, aprovado pela diretoria colegiada em 2 de junho e que entrará em vigor no aniversário de um ano do Pix, em 16 de novembro. O mecanismo especial de devolução padroniza as regras e os procedimentos para viabilizar a devolução de valores pelo prestador de serviço de pagamento (PSP) do usuário recebedor, por iniciativa própria ou por solicitação do PSP do usuário pagador, nos casos em que exista fundada suspeita de fraude ou nas situações em que se verifique falha operacional nos sistemas das instituições envolvidas na transação."
+  },
+  {
+    "id": "chunk_bcb_003",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "O mecanismo especial de devolução padroniza as regras e os procedimentos para viabilizar a devolução de valores pelo prestador de serviço de pagamento (PSP) do usuário recebedor, por iniciativa própria ou por solicitação do PSP do usuário pagador, nos casos em que exista fundada suspeita de fraude ou nas situações em que se verifique falha operacional nos sistemas das instituições envolvidas na transação. A norma está na Resolução BCB 103 ."
+  },
+  {
+    "id": "chunk_bcb_004",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "A norma está na Resolução BCB 103 . Desde o lançamento do Pix, está disponível uma funcionalidade que permite que o usuário recebedor devolva, total ou parcialmente, os valores de uma transação. Entretanto, não havia previsão de que a devolução fosse iniciada pela instituição de relacionamento do usuário recebedor."
+  },
+  {
+    "id": "chunk_bcb_005",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "Entretanto, não havia previsão de que a devolução fosse iniciada pela instituição de relacionamento do usuário recebedor. Assim, atualmente, em uma eventual fraude evidente ou falha operacional, as instituições envolvidas precisam estabelecer procedimentos operacionais bilaterais, de forma a efetuar as comunicações relacionadas a solicitações e recebimentos de pedidos de devoluções, dificultando o processo e aumentando o tempo necessário para que o caso seja analisado e finalizado, reduzindo a eficácia das devoluções."
+  },
+  {
+    "id": "chunk_bcb_006",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "Assim, atualmente, em uma eventual fraude evidente ou falha operacional, as instituições envolvidas precisam estabelecer procedimentos operacionais bilaterais, de forma a efetuar as comunicações relacionadas a solicitações e recebimentos de pedidos de devoluções, dificultando o processo e aumentando o tempo necessário para que o caso seja analisado e finalizado, reduzindo a eficácia das devoluções. “O estabelecimento de um procedimento especial padronizado de devolução no âmbito do arranjo implicará, portanto, em aumentar ainda mais a segurança para os usuários do Pix, que terão mais possibilidade de reaver fundos transacionados a partir de uma fraude evidente”, defende o diretor de Organização do Sistema Financeiro e de Resolução do Banco Central, João Manoel Pinho de Mello."
+  },
+  {
+    "id": "chunk_bcb_007",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "“O estabelecimento de um procedimento especial padronizado de devolução no âmbito do arranjo implicará, portanto, em aumentar ainda mais a segurança para os usuários do Pix, que terão mais possibilidade de reaver fundos transacionados a partir de uma fraude evidente”, defende o diretor de Organização do Sistema Financeiro e de Resolução do Banco Central, João Manoel Pinho de Mello. Segundo ele, com a medida o BC espera que haja redução nos custos operacionais de devolução e maior eficiência."
+  },
+  {
+    "id": "chunk_bcb_008",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "Segundo ele, com a medida o BC espera que haja redução nos custos operacionais de devolução e maior eficiência. A instituição que efetuar uma devolução utilizando-se do mecanismo especial precisará notificar tempestivamente o usuário quanto a realização do débito na conta. Além disso, a transação constará do extrato das movimentações. O BC lembra que, apesar de aprovada agora, as novas regras não entram em vigor imediatamente."
+  },
+  {
+    "id": "chunk_bcb_009",
+    "fonte": "Banco Central do Brasil - Regulamentação Oficial do MED",
+    "url": "https://www.bcb.gov.br/detalhenoticia/554/noticia",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "O BC lembra que, apesar de aprovada agora, as novas regras não entram em vigor imediatamente. “Como os participantes do Pix precisam de tempo para fazer os devidos ajustes nos sistemas e interfaces, o mecanismo especial de devolução entrará em vigor em 16 de novembro de 2021”, conclui o diretor João Manoel Pinho de Mello."
+  },
+  {
+    "id": "chunk_bcb_010",
+    "fonte": "Banco Central do Brasil - Regras Gerais do Mecanismo Especial de Devolução (MED)",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "med_pix",
+    "conteudo": "O Mecanismo Especial de Devolução (MED) é um conjunto de regras e procedimentos regulamentado pelo Banco Central do Brasil no Regulamento do Pix (Resolução BCB nº 103/2021 e Resolução BCB nº 1/2020) para facilitar a devolução de recursos em hipóteses de fundada suspeita de fraude ou falha operacional nos sistemas das instituições financeiras. O mecanismo opera de forma padronizada entre os bancos para aumentar a segurança das transferências instantâneas."
+  },
+  {
+    "id": "chunk_bcb_011",
+    "fonte": "Banco Central do Brasil - Prazos Oficiais para Acionamento e Análise do MED",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "prazos_med",
+    "conteudo": "A vítima de fraude ou golpe tem o prazo limite de até 80 dias, contados a partir da data de realização do Pix, para registrar a contestação junto à sua instituição financeira de relacionamento. Após a abertura do registro de infração, as instituições envolvidas dispõem de até 7 dias corridos para analisar se houve fraude. Caso confirmada, a instituição recebedora tem até 96 horas para devolver os recursos recuperados à conta de origem."
+  },
+  {
+    "id": "chunk_bcb_012",
+    "fonte": "Banco Central do Brasil - Funcionamento do Bloqueio Cautelar do Pix",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "bloqueio_cautelar_pix",
+    "conteudo": "O Bloqueio Cautelar é uma medida de segurança operacional em que a instituição detentora da conta recebedora pessoa física ou jurídica bloqueia os recursos transacionados por até 72 horas em casos com fundada suspeita de fraude. O bloqueio temporário é efetuado simultaneamente à análise aprofundada de risco da transação, garantindo maior chance de estorno antes da dispersão dos valores."
+  },
+  {
+    "id": "chunk_bcb_013",
+    "fonte": "Banco Central do Brasil - Exceções e Não Aplicabilidade do MED",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "excecoes_med",
+    "conteudo": "O MED não se aplica e não pode ser acionado em controvérsias decorrentes de desacordo comercial (por exemplo, quando o consumidor adquire produto que não é entregue conforme esperado ou quando há divergência sobre mercadorias de boa-fé) nem em transferências realizadas espontaneamente por engano ou erro de digitação de chave Pix por parte do pagador."
+  },
+  {
+    "id": "chunk_bcb_014",
+    "fonte": "Banco Central do Brasil - Limites Noturnos e Parâmetros de Segurança do Pix",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
+    "licenca": "Conteúdo governamental aberto (Domínio Público / Governo Federal)",
+    "tipo_golpe": "limites_seguranca_pix",
+    "conteudo": "As regras do Banco Central determinam que as instituições financeiras estabeleçam limite de transferência padrão de R$ 1.000,00 no horário noturno (compreendido entre 20h e 6h, ou facultativamente entre 22h e 6h). O cliente pode personalizar seus limites pelo aplicativo bancário, sendo que pedidos de redução têm eficácia imediata e pedidos de aumento exigem intervalo mínimo de 24 a 48 horas para aprovação."
+  },
+  {
+    "id": "chunk_proconsp_001",
+    "fonte": "Procon-SP - Direito de Arrependimento nas Compras Online (Artigo 49 do CDC)",
+    "url": "https://www.procon.sp.gov.br/direito-de-arrependimento/",
+    "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
+    "tipo_golpe": "direito_arrependimento",
+    "conteudo": "Conforme o artigo 49 do Código de Defesa do Consumidor (CDC), o consumidor pode desistir do contrato no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação ocorrer fora do estabelecimento comercial (pela internet, telefone ou catálogo). O cancelamento no prazo garante a devolução imediata e integral de todos os valores pagos, inclusive eventuais despesas com frete, sem qualquer ônus ou taxa."
+  },
+  {
+    "id": "chunk_proconsp_002",
+    "fonte": "Procon-SP - Responsabilidade Objetiva dos Bancos em Fraudes (Súmula 479 do STJ)",
+    "url": "https://www.procon.sp.gov.br/alertas-golpes-financeiros/",
+    "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
+    "tipo_golpe": "responsabilidade_bancaria",
+    "conteudo": "Nos termos da Súmula 479 do Superior Tribunal de Justiça (STJ), as instituições financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias. Cabe à instituição bancária provar a culpa exclusiva do consumidor ou a inexistência de defeito na prestação de serviço de segurança das suas plataformas."
+  },
+  {
+    "id": "chunk_proconsp_003",
+    "fonte": "Procon-SP - Cancelamento e Contestação de Transações Não Reconhecidas no Cartão",
+    "url": "https://www.procon.sp.gov.br/cartao-de-credito-fraude/",
+    "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
+    "tipo_golpe": "contestacao_cartao",
+    "conteudo": "Em casos de compras não reconhecidas, clonagem de dados ou fraude por furto ou roubo de cartão, o Procon-SP orienta o consumidor a registrar imediatamente contestação formal (chargeback) perante a administradora do cartão de crédito e anotar o protocolo de atendimento. A operadora não pode exigir o pagamento de faturas com cobranças contestadas sob averiguação tempestiva."
+  },
+  {
+    "id": "chunk_proconsp_004",
+    "fonte": "Procon-SP - Alerta de Golpes em Nome do Procon e Verificação de Lojas Falsas",
+    "url": "https://www.procon.sp.gov.br/evite-esses-sites/",
+    "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
+    "tipo_golpe": "loja_falsa_ecommerce",
+    "conteudo": "O Procon-SP alerta que jamais envia mensagens de cobrança, notificações de processos ou links de pagamento por WhatsApp, SMS ou e-mail exigindo dados bancários ou depósitos. O órgão disponibiliza a lista oficial 'Evite esses sites', que cataloga endereços de e-commerce que tiveram reclamações fundamentadas sem resposta e não foram localizados, recomendando que os consumidores consultem o CNPJ e razão social antes de comprar."
+  },
+  {
+    "id": "chunk_proconsp_005",
+    "fonte": "Procon-SP - Direitos do Consumidor em Golpes de Intermediação de Pagamentos",
+    "url": "https://www.procon.sp.gov.br/golpes-compras-online/",
+    "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
+    "tipo_golpe": "responsabilidade_bancaria",
+    "conteudo": "Plataformas de marketplace e intermediadores de pagamentos que integram a cadeia de consumo e viabilizam o processamento de compras online fraudulentas possuem responsabilidade solidária pela reparação de danos quando falham em seus deveres de validação dos fornecedores e conferência da idoneidade dos anúncios promovidos em seus ecossistemas digitais."
+  },
+  {
+    "id": "chunk_sspsp_001",
+    "fonte": "SSP-SP Delegacia Eletrônica - Registro de Ocorrência na Delegacia Eletrônica da Polícia Civil de SP",
+    "url": "https://www.delegaciaeletronica.policiacivil.sp.gov.br/",
+    "licenca": "Conteúdo governamental oficial / utilidade pública (SSP-SP)",
+    "tipo_golpe": "boletim_ocorrencia",
+    "conteudo": "Vítimas de estelionato e golpes digitais no Estado de São Paulo podem registrar o Boletim de Ocorrência de forma totalmente online e gratuita pela Delegacia Eletrônica da Polícia Civil. O documento eletrônico possui a mesma validade jurídica do registro presencial em delegacia física e é indispensável para embasar processos de contestação bancária e apuração penal dos criminosos."
+  },
+  {
+    "id": "chunk_sspsp_002",
+    "fonte": "SSP-SP Delegacia Eletrônica - Tipificação Penal: Fraude Eletrônica (Artigo 171, § 2º-A do Código Penal)",
+    "url": "https://www.delegaciaeletronica.policiacivil.sp.gov.br/",
+    "licenca": "Conteúdo governamental oficial / utilidade pública (SSP-SP)",
+    "tipo_golpe": "legislacao_fraude_eletronica",
+    "conteudo": "A Lei nº 14.155/2021 incluiu no Código Penal o crime de Fraude Eletrônica (Art. 171, § 2º-A), com pena de reclusão de 4 a 8 anos e multa para o estelionato praticado com a utilização de informações fornecidas pela vítima ou por terceiro induzido a erro por meio de redes sociais, contatos telefônicos ou envio de correio eletrônico fraudulento, ou por qualquer outro meio fraudulento análogo."
+  },
+  {
+    "id": "chunk_sspsp_003",
+    "fonte": "SSP-SP Delegacia Eletrônica - Protocolo de Preservação de Provas Digitais para Investigação",
+    "url": "https://www.delegaciaeletronica.policiacivil.sp.gov.br/",
+    "licenca": "Conteúdo governamental oficial / utilidade pública (SSP-SP)",
+    "tipo_golpe": "preservacao_provas",
+    "conteudo": "Ao registrar o Boletim de Ocorrência, a vítima deve preservar e anexar todas as evidências digitais: capturas de tela (prints) das conversas completas com números de telefone e links visíveis, comprovantes das transferências e pagamentos Pix com identificação do ID da transação e conta favorecida, extratos bancários detalhados e números de protocolo dos chamados abertos no banco."
+  },
+  {
+    "id": "chunk_sspsp_004",
+    "fonte": "SSP-SP Delegacia Eletrônica - Prazo Decadencial de Representação Criminal (Artigo 171, § 5º do CP)",
+    "url": "https://www.delegaciaeletronica.policiacivil.sp.gov.br/",
+    "licenca": "Conteúdo governamental oficial / utilidade pública (SSP-SP)",
+    "tipo_golpe": "legislacao_fraude_eletronica",
+    "conteudo": "Conforme estabelecido no artigo 171, § 5º do Código Penal, nos crimes de estelionato a ação penal pública é condicionada à representação da vítima. Isso significa que o cidadão lesado deve manifestar formalmente o interesse de processar os autores no prazo decadencial de até 6 meses, contados a partir do dia em que veio a saber quem é o autor do delito."
+  }
+]

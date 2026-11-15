@@ -1,0 +1,391 @@
+[
+  {
+    "id": "tc_001",
+    "mensagem_recebida": "BB AVISA: Compra aprovada no valor de R$ 3.840,00 no Magazine Luiza. Se você não reconhece, ligue imediatamente para a Central de Segurança no 0800 782 0192.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falsa_central_atendimento",
+    "sinais_criticos": [
+      "0800 falso",
+      "pânico de compra alta",
+      "orientação para ligar em número não oficial"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_001",
+      "chunk_febraban_002",
+      "chunk_febraban_003",
+      "chunk_febraban_004"
+    ]
+  },
+  {
+    "id": "tc_002",
+    "mensagem_recebida": "Oi mãe, salvei esse novo número porque meu celular quebrou e tive que pegar outro. Preciso pagar o conserto do carro urgente de R$ 1.450 e meu app do banco não autoriza aqui. Você consegue fazer esse Pix pra oficina agora? A chave é da oficina: 11988223344.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_whatsapp",
+    "sinais_criticos": [
+      "troca de número de familiar",
+      "urgência financeira",
+      "chave Pix de terceiro desconhecido"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_008",
+      "chunk_febraban_009",
+      "chunk_febraban_010",
+      "chunk_febraban_011",
+      "chunk_febraban_012",
+      "chunk_febraban_013",
+      "chunk_febraban_014",
+      "chunk_febraban_015",
+      "chunk_febraban_016",
+      "chunk_febraban_017"
+    ]
+  },
+  {
+    "id": "tc_003",
+    "mensagem_recebida": "Central de Monitoramento Bradesco: Identificamos compras suspeitas com seu cartão de crédito final 8120. Para seu cancelamento seguro, corte o plástico ao meio preservando o chip intacto para perícia. Um motoboy credenciado irá retirar o cartão inutilizado em sua residência em até 40 minutos.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_motoboy",
+    "sinais_criticos": [
+      "motoboy retirando cartão em domicílio",
+      "instrução para manter chip intacto",
+      "falso cancelamento"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_021",
+      "chunk_febraban_022",
+      "chunk_febraban_023",
+      "chunk_febraban_024"
+    ]
+  },
+  {
+    "id": "tc_004",
+    "mensagem_recebida": "Alô, Dona Lurdes? Chegou uma cesta de flores e chocolates linda de aniversário para a senhora aqui na portaria! É presente da sua amiga, mas a transportadora exige o pagamento de uma taxa de entrega de R$ 6,50 no cartão de débito para emitir o comprovante no sistema. O entregador está com a máquina no portão.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "maquininha_quebrada_presente",
+    "sinais_criticos": [
+      "cobrança de taxa de entrega em presente",
+      "exigência de passar cartão físico em máquina trazida pelo motoboy"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_052",
+      "chunk_febraban_053",
+      "chunk_febraban_054",
+      "chunk_febraban_055",
+      "chunk_febraban_056",
+      "chunk_febraban_057"
+    ]
+  },
+  {
+    "id": "tc_005",
+    "mensagem_recebida": "Moço, pelo amor de Deus, eu fiz um Pix errado de R$ 850 para você agora achando que era meu primo! Foi engano, por favor me devolve esse dinheiro porque é remédio da minha filha. Mas não devolve na mesma conta porque deu problema no meu banco, manda para a chave do meu irmão: 22998765432.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "pix_errado_comprovante_falso",
+    "sinais_criticos": [
+      "pressão emocional de Pix por engano",
+      "pedido para transferir para conta de terceiro diferente da origem"
+    ],
+    "chunks_esperados": [
+      "chunk_certbr_032",
+      "chunk_febraban_025",
+      "chunk_febraban_026",
+      "chunk_febraban_027",
+      "chunk_febraban_028",
+      "chunk_febraban_029",
+      "chunk_febraban_030"
+    ]
+  },
+  {
+    "id": "tc_006",
+    "mensagem_recebida": "Suporte Técnico Itaú: Foi detectado acesso suspeito à sua conta de outro aparelho. Para evitar o bloqueio preventivo das suas aplicações, instale imediatamente nosso aplicativo oficial de proteção de rede no link: modulo-itau-seguranca.apk.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "mao_fantasma_acesso_remoto",
+    "sinais_criticos": [
+      "solicitação de instalação de aplicativo fora da loja oficial",
+      "acesso remoto / mão fantasma",
+      "ameaça de bloqueio"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_018",
+      "chunk_febraban_019",
+      "chunk_febraban_020"
+    ]
+  },
+  {
+    "id": "tc_007",
+    "mensagem_recebida": "Prezado cliente, seu boleto do plano de saúde Notredame deste mês foi emitido com desconto especial de pontualidade. Atualize a linha digitável para pagamento: 23793.38128 60000.123456 01000.123456 1 9500000035000.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_boleto",
+    "sinais_criticos": [
+      "desconto incomum não solicitado",
+      "substituição de linha digitável por canais não oficiais"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_044",
+      "chunk_febraban_045",
+      "chunk_febraban_046",
+      "chunk_febraban_047",
+      "chunk_febraban_048"
+    ]
+  },
+  {
+    "id": "tc_008",
+    "mensagem_recebida": "Crédito Rápido Fácil: Empréstimo aprovado de R$ 15.000,00 sem consulta ao SPC/Serasa para aposentados e pensionistas do INSS. Para liberação do montante em até 2 horas, realize o depósito da taxa cartorária de seguro de R$ 350,00 via Pix.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_emprestimo",
+    "sinais_criticos": [
+      "exigência de depósito antecipado para liberação de empréstimo",
+      "condições fáceis demais para negativados"
+    ],
+    "chunks_esperados": [
+      "chunk_certbr_035",
+      "chunk_certbr_058",
+      "chunk_febraban_049",
+      "chunk_febraban_050",
+      "chunk_febraban_051"
+    ]
+  },
+  {
+    "id": "tc_009",
+    "mensagem_recebida": "Correios Alerta: Sua encomenda internacional com código BR982194123SP foi retida na alfândega devido a pendência tributária de R$ 68,40. Evite a devolução ao remetente pagando agora no link: rastreio-correios-taxa.com/pagar.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "phishing",
+    "sinais_criticos": [
+      "link falso fora do domínio correios.com.br",
+      "ameaça de perda de mercadoria",
+      "taxa falsa"
+    ],
+    "chunks_esperados": [
+      "chunk_certbr_008",
+      "chunk_certbr_022",
+      "chunk_certbr_024",
+      "chunk_certbr_044",
+      "chunk_certbr_051",
+      "chunk_certbr_052",
+      "chunk_certbr_057",
+      "chunk_febraban_035",
+      "chunk_febraban_036",
+      "chunk_febraban_037",
+      "chunk_febraban_038",
+      "chunk_febraban_039",
+      "chunk_febraban_040",
+      "chunk_proconsp_004",
+      "chunk_sspsp_002"
+    ]
+  },
+  {
+    "id": "tc_010",
+    "mensagem_recebida": "Investimento Garantido: Aplique R$ 1.000,00 hoje no robô de inteligência artificial de criptomoedas da Petrobras e receba R$ 250,00 por dia garantidos diretamente na sua conta corrente. Vagas limitadas para os primeiros 50 cadastros.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_investimento",
+    "sinais_criticos": [
+      "promessa de rentabilidade diária irreal",
+      "uso indevido de imagem de empresa pública",
+      "urgência de vagas limitadas"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_041",
+      "chunk_febraban_042",
+      "chunk_febraban_043"
+    ]
+  },
+  {
+    "id": "tc_011",
+    "mensagem_recebida": "Receita Federal: Notamos divergências na sua Declaração de IRPF que bloquearam a sua restituição de R$ 2.450,00. Regularize seu CPF e antecipe o resgate do valor acessando o portal: regularizacao-cpf-receita.net.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_imposto_renda",
+    "sinais_criticos": [
+      "domínio falso fora de gov.br",
+      "promessa de antecipação de restituição",
+      "ameaça de CPF cancelado"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_062",
+      "chunk_febraban_063",
+      "chunk_febraban_064"
+    ]
+  },
+  {
+    "id": "tc_012",
+    "mensagem_recebida": "Dra. Patrícia Silveira Advocacia: Boa tarde, informamos que o processo referente ao seu precatório/benefício judicial foi expedido pelo Tribunal de Justiça. Para emissão da guia de levantamento dos R$ 48.000,00, é necessário recolher as custas de certidão no valor de R$ 1.200,00 via Pix.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_advogado",
+    "sinais_criticos": [
+      "cobrança prévia de custas via Pix por mensagem",
+      "promessa de liberação imediata de precatório judicial"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_065",
+      "chunk_febraban_066",
+      "chunk_febraban_067",
+      "chunk_febraban_068",
+      "chunk_febraban_069",
+      "chunk_febraban_070"
+    ]
+  },
+  {
+    "id": "tc_013",
+    "mensagem_recebida": "DETRAN-SP: AVISO URGENTE. Sua Carteira Nacional de Habilitação (CNH) possui processo de suspensão em aberto por pontos expirados. Evite o bloqueio judicial efetuando a regularização da taxa no site: detran-sp-taxas-online.com.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "phishing",
+    "sinais_criticos": [
+      "site fraudulento fora de sp.gov.br",
+      "ameaça de cancelamento de documento oficial"
+    ],
+    "chunks_esperados": [
+      "chunk_certbr_008",
+      "chunk_certbr_022",
+      "chunk_certbr_024",
+      "chunk_certbr_044",
+      "chunk_certbr_051",
+      "chunk_certbr_052",
+      "chunk_certbr_057",
+      "chunk_febraban_035",
+      "chunk_febraban_036",
+      "chunk_febraban_037",
+      "chunk_febraban_038",
+      "chunk_febraban_039",
+      "chunk_febraban_040",
+      "chunk_proconsp_004",
+      "chunk_sspsp_002"
+    ]
+  },
+  {
+    "id": "tc_014",
+    "mensagem_recebida": "Mega Saldão Eletrodomésticos: Smart TV Samsung 65 polegadas 4K de R$ 4.299 por apenas R$ 799,00 na queima de estoque. Pagamento exclusivo via Pix no QR Code abaixo com frete grátis para todo o estado de SP.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falsa_venda_ecommerce",
+    "sinais_criticos": [
+      "preço absurdamente abaixo do mercado",
+      "exigência exclusiva de pagamento por Pix sem proteção"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_005",
+      "chunk_febraban_006",
+      "chunk_febraban_007",
+      "chunk_proconsp_001",
+      "chunk_proconsp_004"
+    ]
+  },
+  {
+    "id": "tc_015",
+    "mensagem_recebida": "Leilão Oficial de Veículos SP: Arremate carros recuperados de financiamento a partir de R$ 8.000. Lote liberado hoje, confirme seu lance e faça o depósito caução em conta judicial provisória: leiloes-sp-oficial.com.",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_leilao",
+    "sinais_criticos": [
+      "site falso de leilão",
+      "depósito de caução em conta de pessoa física ou provisória"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_058",
+      "chunk_febraban_059",
+      "chunk_febraban_060",
+      "chunk_febraban_061"
+    ]
+  },
+  {
+    "id": "tc_016",
+    "mensagem_recebida": "Nubank: Sua fatura com vencimento em 15/11 fechou em R$ 342,80. Acesse o aplicativo oficial do Nubank para ver o detalhamento ou copiar o código de pagamento.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "notificação padrão sem urgência",
+      "direciona para o próprio aplicativo instalado",
+      "sem pedido de dados sensíveis"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_017",
+    "mensagem_recebida": "Caixa Econômica: Seu código de segurança para acesso ao aplicativo Caixa Tem é 849.201. Ele expira em 5 minutos. ATENÇÃO: a Caixa NUNCA pede este código por telefone ou mensagem. Não compartilhe com ninguém.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "código 2FA solicitado pelo próprio usuário",
+      "aviso explícito do banco para não repassar a terceiros"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_018",
+    "mensagem_recebida": "Banco do Brasil: Transação Pix realizada com sucesso no valor de R$ 45,00 para Farmácia Droga Raia em 11/11/2026 às 14:32. Consulte seu extrato no app BB.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "comprovante informativo passivo de compra presencial",
+      "sem solicitação de ação"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_019",
+    "mensagem_recebida": "Itaú: Compra aprovada com seu cartão físico na loja Pão de Açúcar valor R$ 118,50 em 11/11 às 11:20. Em caso de dúvidas sobre este lançamento, consulte o app Itaú Cartões.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "notificação transacional de cartão com chip",
+      "sem links externos suspeitos"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_020",
+    "mensagem_recebida": "Santander: Seu limite de transferência Pix para o período noturno está configurado em R$ 1.000,00 conforme normas do Banco Central. Você pode gerenciar seus limites a qualquer momento no menu Meus Limites do aplicativo.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "comunicação regulatória informativa do Banco Central",
+      "gestão dentro do próprio canal oficial"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_021",
+    "mensagem_recebida": "Vó, me manda aquela receita do bolo de fubá com goiabada que a senhora fez no domingo passado? Queria fazer para os meninos aqui em casa.",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "conversa afetiva sem conteúdo financeiro",
+      "tema de culinária"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_022",
+    "mensagem_recebida": "Você sabe me informar se amanhã vai chover na região da Avenida Paulista em São Paulo? Preciso levar guarda-chuva para a consulta médica?",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "pergunta meteorológica sem contexto bancário"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_023",
+    "mensagem_recebida": "Qual é o horário de vacinação contra a gripe no posto de saúde da Vila Mariana neste sábado?",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "dúvida sobre saúde pública local sem ameaça digital"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_024",
+    "mensagem_recebida": "Alguém sabe quem ganhou o jogo do Corinthians e Palmeiras ontem à noite? Não consegui assistir porque dormi cedo.",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "pergunta esportiva sem vínculo transacional"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_025",
+    "mensagem_recebida": "Como faço para tirar manchas de café do sofá de tecido claro sem estragar o estofado?",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "dica doméstica fora do escopo de segurança"
+    ],
+    "chunks_esperados": []
+  }
+]

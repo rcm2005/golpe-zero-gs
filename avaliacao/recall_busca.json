@@ -1,0 +1,517 @@
+{
+  "arquivo_testes": "avaliacao/test_cases.json",
+  "modelo_embeddings": "all-MiniLM-L6-v2",
+  "total_chunks_base": 158,
+  "total_casos": 25,
+  "total_golpes": 15,
+  "acertos_top1": 5,
+  "acertos_top3": 7,
+  "recall_at_1_pct": 33.33,
+  "recall_at_3_pct": 46.67,
+  "limiar_sugerido": 0.35,
+  "limiar_ponto_medio": 0.48,
+  "scores_por_categoria": {
+    "golpe": {
+      "media": 0.5501,
+      "minimo": 0.3958,
+      "maximo": 0.6762
+    },
+    "legitimo": {
+      "media": 0.6335,
+      "minimo": 0.5735,
+      "maximo": 0.7443
+    },
+    "fora_de_dominio": {
+      "media": 0.5282,
+      "minimo": 0.4988,
+      "maximo": 0.5646
+    }
+  },
+  "casos": [
+    {
+      "id": "tc_001",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falsa_central_atendimento",
+      "score_top1": 0.4979,
+      "top1_chunk_id": "chunk_febraban_002",
+      "top3_chunk_ids": [
+        "chunk_febraban_002",
+        "chunk_febraban_004",
+        "chunk_febraban_051"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_001",
+        "chunk_febraban_002",
+        "chunk_febraban_003",
+        "chunk_febraban_004"
+      ],
+      "hit_top1": true,
+      "hit_top3": true
+    },
+    {
+      "id": "tc_002",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_whatsapp",
+      "score_top1": 0.5966,
+      "top1_chunk_id": "chunk_febraban_002",
+      "top3_chunk_ids": [
+        "chunk_febraban_002",
+        "chunk_febraban_001",
+        "chunk_febraban_003"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_008",
+        "chunk_febraban_009",
+        "chunk_febraban_010",
+        "chunk_febraban_011",
+        "chunk_febraban_012",
+        "chunk_febraban_013",
+        "chunk_febraban_014",
+        "chunk_febraban_015",
+        "chunk_febraban_016",
+        "chunk_febraban_017"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_003",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_motoboy",
+      "score_top1": 0.6762,
+      "top1_chunk_id": "chunk_febraban_021",
+      "top3_chunk_ids": [
+        "chunk_febraban_021",
+        "chunk_febraban_022",
+        "chunk_febraban_024"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_021",
+        "chunk_febraban_022",
+        "chunk_febraban_023",
+        "chunk_febraban_024"
+      ],
+      "hit_top1": true,
+      "hit_top3": true
+    },
+    {
+      "id": "tc_004",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "maquininha_quebrada_presente",
+      "score_top1": 0.5387,
+      "top1_chunk_id": "chunk_febraban_031",
+      "top3_chunk_ids": [
+        "chunk_febraban_031",
+        "chunk_febraban_034",
+        "chunk_febraban_033"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_052",
+        "chunk_febraban_053",
+        "chunk_febraban_054",
+        "chunk_febraban_055",
+        "chunk_febraban_056",
+        "chunk_febraban_057"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_005",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "pix_errado_comprovante_falso",
+      "score_top1": 0.6517,
+      "top1_chunk_id": "chunk_certbr_032",
+      "top3_chunk_ids": [
+        "chunk_certbr_032",
+        "chunk_febraban_028",
+        "chunk_febraban_031"
+      ],
+      "chunks_esperados": [
+        "chunk_certbr_032",
+        "chunk_febraban_025",
+        "chunk_febraban_026",
+        "chunk_febraban_027",
+        "chunk_febraban_028",
+        "chunk_febraban_029",
+        "chunk_febraban_030"
+      ],
+      "hit_top1": true,
+      "hit_top3": true
+    },
+    {
+      "id": "tc_006",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "mao_fantasma_acesso_remoto",
+      "score_top1": 0.5513,
+      "top1_chunk_id": "chunk_febraban_068",
+      "top3_chunk_ids": [
+        "chunk_febraban_068",
+        "chunk_febraban_019",
+        "chunk_certbr_008"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_018",
+        "chunk_febraban_019",
+        "chunk_febraban_020"
+      ],
+      "hit_top1": false,
+      "hit_top3": true
+    },
+    {
+      "id": "tc_007",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_boleto",
+      "score_top1": 0.6586,
+      "top1_chunk_id": "chunk_sspsp_003",
+      "top3_chunk_ids": [
+        "chunk_sspsp_003",
+        "chunk_febraban_031",
+        "chunk_sspsp_001"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_044",
+        "chunk_febraban_045",
+        "chunk_febraban_046",
+        "chunk_febraban_047",
+        "chunk_febraban_048"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_008",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_emprestimo",
+      "score_top1": 0.5883,
+      "top1_chunk_id": "chunk_febraban_051",
+      "top3_chunk_ids": [
+        "chunk_febraban_051",
+        "chunk_febraban_007",
+        "chunk_bcb_014"
+      ],
+      "chunks_esperados": [
+        "chunk_certbr_035",
+        "chunk_certbr_058",
+        "chunk_febraban_049",
+        "chunk_febraban_050",
+        "chunk_febraban_051"
+      ],
+      "hit_top1": true,
+      "hit_top3": true
+    },
+    {
+      "id": "tc_009",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "phishing",
+      "score_top1": 0.4721,
+      "top1_chunk_id": "chunk_proconsp_001",
+      "top3_chunk_ids": [
+        "chunk_proconsp_001",
+        "chunk_febraban_051",
+        "chunk_febraban_065"
+      ],
+      "chunks_esperados": [
+        "chunk_certbr_008",
+        "chunk_certbr_022",
+        "chunk_certbr_024",
+        "chunk_certbr_044",
+        "chunk_certbr_051",
+        "chunk_certbr_052",
+        "chunk_certbr_057",
+        "chunk_febraban_035",
+        "chunk_febraban_036",
+        "chunk_febraban_037",
+        "chunk_febraban_038",
+        "chunk_febraban_039",
+        "chunk_febraban_040",
+        "chunk_proconsp_004",
+        "chunk_sspsp_002"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_010",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_investimento",
+      "score_top1": 0.5503,
+      "top1_chunk_id": "chunk_bcb_014",
+      "top3_chunk_ids": [
+        "chunk_bcb_014",
+        "chunk_febraban_007",
+        "chunk_febraban_042"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_041",
+        "chunk_febraban_042",
+        "chunk_febraban_043"
+      ],
+      "hit_top1": false,
+      "hit_top3": true
+    },
+    {
+      "id": "tc_011",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_imposto_renda",
+      "score_top1": 0.4899,
+      "top1_chunk_id": "chunk_proconsp_002",
+      "top3_chunk_ids": [
+        "chunk_proconsp_002",
+        "chunk_bcb_014",
+        "chunk_certbr_036"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_062",
+        "chunk_febraban_063",
+        "chunk_febraban_064"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_012",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_advogado",
+      "score_top1": 0.5901,
+      "top1_chunk_id": "chunk_certbr_047",
+      "top3_chunk_ids": [
+        "chunk_certbr_047",
+        "chunk_proconsp_002",
+        "chunk_bcb_006"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_065",
+        "chunk_febraban_066",
+        "chunk_febraban_067",
+        "chunk_febraban_068",
+        "chunk_febraban_069",
+        "chunk_febraban_070"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_013",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "phishing",
+      "score_top1": 0.4347,
+      "top1_chunk_id": "chunk_proconsp_001",
+      "top3_chunk_ids": [
+        "chunk_proconsp_001",
+        "chunk_sspsp_004",
+        "chunk_sspsp_001"
+      ],
+      "chunks_esperados": [
+        "chunk_certbr_008",
+        "chunk_certbr_022",
+        "chunk_certbr_024",
+        "chunk_certbr_044",
+        "chunk_certbr_051",
+        "chunk_certbr_052",
+        "chunk_certbr_057",
+        "chunk_febraban_035",
+        "chunk_febraban_036",
+        "chunk_febraban_037",
+        "chunk_febraban_038",
+        "chunk_febraban_039",
+        "chunk_febraban_040",
+        "chunk_proconsp_004",
+        "chunk_sspsp_002"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_014",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falsa_venda_ecommerce",
+      "score_top1": 0.3958,
+      "top1_chunk_id": "chunk_febraban_005",
+      "top3_chunk_ids": [
+        "chunk_febraban_005",
+        "chunk_febraban_007",
+        "chunk_bcb_014"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_005",
+        "chunk_febraban_006",
+        "chunk_febraban_007",
+        "chunk_proconsp_001",
+        "chunk_proconsp_004"
+      ],
+      "hit_top1": true,
+      "hit_top3": true
+    },
+    {
+      "id": "tc_015",
+      "categoria_esperada": "golpe",
+      "tipo_golpe_esperado": "falso_leilao",
+      "score_top1": 0.5591,
+      "top1_chunk_id": "chunk_bcb_007",
+      "top3_chunk_ids": [
+        "chunk_bcb_007",
+        "chunk_bcb_014",
+        "chunk_proconsp_002"
+      ],
+      "chunks_esperados": [
+        "chunk_febraban_058",
+        "chunk_febraban_059",
+        "chunk_febraban_060",
+        "chunk_febraban_061"
+      ],
+      "hit_top1": false,
+      "hit_top3": false
+    },
+    {
+      "id": "tc_016",
+      "categoria_esperada": "legitimo",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.5735,
+      "top1_chunk_id": "chunk_bcb_014",
+      "top3_chunk_ids": [
+        "chunk_bcb_014",
+        "chunk_febraban_050",
+        "chunk_febraban_051"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_017",
+      "categoria_esperada": "legitimo",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.5938,
+      "top1_chunk_id": "chunk_febraban_051",
+      "top3_chunk_ids": [
+        "chunk_febraban_051",
+        "chunk_febraban_050",
+        "chunk_certbr_013"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_018",
+      "categoria_esperada": "legitimo",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.6591,
+      "top1_chunk_id": "chunk_bcb_010",
+      "top3_chunk_ids": [
+        "chunk_bcb_010",
+        "chunk_certbr_048",
+        "chunk_bcb_014"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_019",
+      "categoria_esperada": "legitimo",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.5968,
+      "top1_chunk_id": "chunk_febraban_024",
+      "top3_chunk_ids": [
+        "chunk_febraban_024",
+        "chunk_certbr_050",
+        "chunk_febraban_057"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_020",
+      "categoria_esperada": "legitimo",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.7443,
+      "top1_chunk_id": "chunk_bcb_014",
+      "top3_chunk_ids": [
+        "chunk_bcb_014",
+        "chunk_bcb_010",
+        "chunk_certbr_047"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_021",
+      "categoria_esperada": "fora_de_dominio",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.5646,
+      "top1_chunk_id": "chunk_febraban_012",
+      "top3_chunk_ids": [
+        "chunk_febraban_012",
+        "chunk_febraban_017",
+        "chunk_febraban_054"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_022",
+      "categoria_esperada": "fora_de_dominio",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.5366,
+      "top1_chunk_id": "chunk_certbr_006",
+      "top3_chunk_ids": [
+        "chunk_certbr_006",
+        "chunk_febraban_053",
+        "chunk_febraban_056"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_023",
+      "categoria_esperada": "fora_de_dominio",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.4988,
+      "top1_chunk_id": "chunk_febraban_053",
+      "top3_chunk_ids": [
+        "chunk_febraban_053",
+        "chunk_febraban_056",
+        "chunk_certbr_031"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_024",
+      "categoria_esperada": "fora_de_dominio",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.5141,
+      "top1_chunk_id": "chunk_certbr_006",
+      "top3_chunk_ids": [
+        "chunk_certbr_006",
+        "chunk_certbr_031",
+        "chunk_febraban_046"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    },
+    {
+      "id": "tc_025",
+      "categoria_esperada": "fora_de_dominio",
+      "tipo_golpe_esperado": "nao_se_aplica",
+      "score_top1": 0.5269,
+      "top1_chunk_id": "chunk_certbr_026",
+      "top3_chunk_ids": [
+        "chunk_certbr_026",
+        "chunk_febraban_010",
+        "chunk_febraban_015"
+      ],
+      "chunks_esperados": [],
+      "hit_top1": null,
+      "hit_top3": null
+    }
+  ]
+}

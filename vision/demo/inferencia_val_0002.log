@@ -1,0 +1,105 @@
+[Teste de Inferência] Analisando imagem: golpe-zero-genai/vision/dataset/images/val/golpe_val_0002.jpg
+[Visão] Carregando modelo treinado: golpe-zero-genai/vision/weights/best.pt
+
+--- RESUMO DA DETECÇÃO VISUAL ---
+{
+  "sucesso": true,
+  "total_elementos": 5,
+  "contagem_classes": {
+    "logo_banco": 1,
+    "chave_pix": 1,
+    "link_suspeito": 1,
+    "qr_code": 1,
+    "selo_falso": 1
+  },
+  "nivel_risco_visual": "CRITICO",
+  "resumo_texto": "Logotipo bancário detectado (1x) | Link suspeito ou URL externa não oficial (1x) | Selo falso de segurança/autenticidade (1x) | Chave Pix exposta na mensagem (1x) | Código QR para pagamento (1x)",
+  "elementos_detectados": [
+    {
+      "classe": "link_suspeito",
+      "classe_id": 2,
+      "confianca": 0.9934,
+      "bbox_xyxy": [
+        49,
+        256,
+        486,
+        292
+      ],
+      "bbox_normalizado": [
+        0.0766,
+        0.4,
+        0.7594,
+        0.4562
+      ]
+    },
+    {
+      "classe": "logo_banco",
+      "classe_id": 0,
+      "confianca": 0.9895,
+      "bbox_xyxy": [
+        41,
+        74,
+        184,
+        122
+      ],
+      "bbox_normalizado": [
+        0.0641,
+        0.1156,
+        0.2875,
+        0.1906
+      ]
+    },
+    {
+      "classe": "chave_pix",
+      "classe_id": 1,
+      "confianca": 0.9849,
+      "bbox_xyxy": [
+        48,
+        203,
+        431,
+        238
+      ],
+      "bbox_normalizado": [
+        0.075,
+        0.3172,
+        0.6734,
+        0.3719
+      ]
+    },
+    {
+      "classe": "qr_code",
+      "classe_id": 3,
+      "confianca": 0.9749,
+      "bbox_xyxy": [
+        56,
+        317,
+        157,
+        421
+      ],
+      "bbox_normalizado": [
+        0.0875,
+        0.4953,
+        0.2453,
+        0.6578
+      ]
+    },
+    {
+      "classe": "selo_falso",
+      "classe_id": 4,
+      "confianca": 0.9645,
+      "bbox_xyxy": [
+        51,
+        440,
+        438,
+        479
+      ],
+      "bbox_normalizado": [
+        0.0797,
+        0.6875,
+        0.6844,
+        0.7484
+      ]
+    }
+  ],
+  "caminho_imagem_anotada": "golpe-zero-genai/vision/output_inferencia/resultado_deteccao.jpg"
+}

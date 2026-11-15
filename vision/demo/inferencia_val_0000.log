@@ -1,0 +1,88 @@
+[Teste de Inferência] Analisando imagem: golpe-zero-genai/vision/dataset/images/val/golpe_val_0000.jpg
+[Visão] Carregando modelo treinado: golpe-zero-genai/vision/weights/best.pt
+
+--- RESUMO DA DETECÇÃO VISUAL ---
+{
+  "sucesso": true,
+  "total_elementos": 4,
+  "contagem_classes": {
+    "logo_banco": 1,
+    "chave_pix": 1,
+    "link_suspeito": 1,
+    "qr_code": 1,
+    "selo_falso": 0
+  },
+  "nivel_risco_visual": "CRITICO",
+  "resumo_texto": "Logotipo bancário detectado (1x) | Link suspeito ou URL externa não oficial (1x) | Chave Pix exposta na mensagem (1x) | Código QR para pagamento (1x)",
+  "elementos_detectados": [
+    {
+      "classe": "logo_banco",
+      "classe_id": 0,
+      "confianca": 0.9938,
+      "bbox_xyxy": [
+        40,
+        74,
+        209,
+        123
+      ],
+      "bbox_normalizado": [
+        0.0625,
+        0.1156,
+        0.3266,
+        0.1922
+      ]
+    },
+    {
+      "classe": "qr_code",
+      "classe_id": 3,
+      "confianca": 0.9925,
+      "bbox_xyxy": [
+        56,
+        317,
+        150,
+        412
+      ],
+      "bbox_normalizado": [
+        0.0875,
+        0.4953,
+        0.2344,
+        0.6438
+      ]
+    },
+    {
+      "classe": "link_suspeito",
+      "classe_id": 2,
+      "confianca": 0.9891,
+      "bbox_xyxy": [
+        52,
+        256,
+        475,
+        292
+      ],
+      "bbox_normalizado": [
+        0.0813,
+        0.4,
+        0.7422,
+        0.4562
+      ]
+    },
+    {
+      "classe": "chave_pix",
+      "classe_id": 1,
+      "confianca": 0.9623,
+      "bbox_xyxy": [
+        49,
+        205,
+        430,
+        238
+      ],
+      "bbox_normalizado": [
+        0.0766,
+        0.3203,
+        0.6719,
+        0.3719
+      ]
+    }
+  ],
+  "caminho_imagem_anotada": "golpe-zero-genai/vision/output_inferencia/resultado_deteccao.jpg"
+}

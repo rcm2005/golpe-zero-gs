@@ -1,0 +1,37 @@
+[Teste de Inferência] Analisando imagem: golpe-zero-genai/vision/dataset/images/val/golpe_val_0028.jpg
+[Visão] Carregando modelo treinado: golpe-zero-genai/vision/weights/best.pt
+
+--- RESUMO DA DETECÇÃO VISUAL ---
+{
+  "sucesso": true,
+  "total_elementos": 1,
+  "contagem_classes": {
+    "logo_banco": 0,
+    "chave_pix": 0,
+    "link_suspeito": 0,
+    "qr_code": 0,
+    "selo_falso": 1
+  },
+  "nivel_risco_visual": "ALTO",
+  "resumo_texto": "Selo falso de segurança/autenticidade (1x)",
+  "elementos_detectados": [
+    {
+      "classe": "selo_falso",
+      "classe_id": 4,
+      "confianca": 0.9531,
+      "bbox_xyxy": [
+        46,
+        130,
+        439,
+        167
+      ],
+      "bbox_normalizado": [
+        0.0719,
+        0.2031,
+        0.6859,
+        0.2609
+      ]
+    }
+  ],
+  "caminho_imagem_anotada": "golpe-zero-genai/vision/output_inferencia/resultado_deteccao.jpg"
+}

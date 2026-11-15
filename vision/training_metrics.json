@@ -1,0 +1,24 @@
+{
+  "modelo": "YOLOv8n-GolpeZero",
+  "epocas": 10,
+  "batch_size": 8,
+  "resolucao_imgsz": 640,
+  "classes": {
+    "0": "logo_banco",
+    "1": "chave_pix",
+    "2": "link_suspeito",
+    "3": "qr_code",
+    "4": "selo_falso"
+  },
+  "map50_pct": 99.5,
+  "map50_95_pct": 96.24,
+  "precision_pct": 98.71,
+  "recall_pct": 100.0,
+  "metricas_por_classe": {
+    "logo_banco": 99.08,
+    "chave_pix": 92.91,
+    "link_suspeito": 95.56,
+    "qr_code": 98.14,
+    "selo_falso": 95.5
+  }
+}

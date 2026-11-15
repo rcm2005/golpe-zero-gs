@@ -1,0 +1,10 @@
+path: .
+train: images/train
+val: images/val
+
+names:
+  0: logo_banco
+  1: chave_pix
+  2: link_suspeito
+  3: qr_code
+  4: selo_falso

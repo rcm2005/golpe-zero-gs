@@ -1,0 +1,147 @@
+[
+  {
+    "id": "tc_026",
+    "mensagem_recebida": "Itaú Alerta de Segurança: identificamos uma tentativa de compra não reconhecida de R$ 2.100,00 no seu cartão final 4412 e bloqueamos o cartão preventivamente para proteger a senhora. Fique tranquila: nenhuma cobrança foi efetivada. Para resolver, ligue para o número impresso no verso do seu cartão ou acesse o app Itaú. IMPORTANTE: não pedimos senha, código nem transferência por telefone ou mensagem.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "alerta de compra não reconhecida com urgência e carga emocional",
+      "direciona apenas para canais oficiais (número do verso do cartão e app)",
+      "não pede dados sensíveis, não contém links externos nem 0800 estranho"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_027",
+    "mensagem_recebida": "Caixa Econômica: seu código de verificação para entrar no Caixa Tem é 583.920. Ele expira em 3 minutos: use agora somente se foi você quem solicitou o acesso. ATENÇÃO: a Caixa NUNCA liga nem envia mensagem pedindo este código. Não repasse a ninguém, nem a quem disser ser funcionário do banco.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "código 2FA com prazo curto solicitado pelo próprio usuário",
+      "aviso explícito do banco para nunca compartilhar o código",
+      "nenhum link, telefone externo ou pedido de dados na mensagem"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_028",
+    "mensagem_recebida": "Banco do Brasil: por segurança, seu limite de Pix no período noturno foi ajustado para R$ 1.000,00, conforme as regras do Banco Central. Se precisar transferir um valor maior hoje à noite, solicite o aumento pelo app BB, no menu Meus Limites. Não cobramos nenhuma taxa por isso e não precisamos de nenhum dado seu por mensagem.",
+    "categoria_esperada": "legitimo",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "comunicação regulatória informativa sobre limite noturno do Pix",
+      "gestão exclusivamente dentro do aplicativo oficial",
+      "sem pedido de dados, links, taxas ou pagamentos"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_029",
+    "mensagem_recebida": "Vó, urgente!! A receita daquele bolo de fubá cremoso leva quanto tempo de forno? Já compra o fermento e a erva-doce aí no mercado da esquina e me manda a conta que eu te pago no pix quando chegar aí no domingo!",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "pedido de receita culinária em conversa familiar afetiva",
+      "léxico financeiro (compra, conta, pix, urgente) em contexto doméstico",
+      "nenhuma ameaça, link ou pedido de dados sensíveis"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_030",
+    "mensagem_recebida": "Galera da pelada de sábado: a conta do aluguel da quadra fechou em R$ 180 e o prazo é hoje! Quem for jogar manda R$ 20 no pix do grupo urgente pra gente confirmar o horário, senão perdemos a reserva do campo!",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "organização social de partida de futebol entre amigos conhecidos",
+      "rateio de custo via Pix no grupo, sem terceiro desconhecido ou coação",
+      "urgência esportiva sem contexto de fraude bancária"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_031",
+    "mensagem_recebida": "Pessoal, urgente! Minha conta do joguinho de fazenda foi bloqueada e perdi todas as moedas de ouro que juntei! Alguém sabe como recupero a senha da conta? Mês passado até comprei pacote de moedas com dinheiro de verdade, que raiva!",
+    "categoria_esperada": "fora_de_dominio",
+    "tipo_golpe_esperado": "nao_se_aplica",
+    "sinais_criticos": [
+      "problema de conta e senha em jogo eletrônico, não em banco",
+      "léxico financeiro (dinheiro, comprei, conta, bloqueada) em contexto de game",
+      "nenhuma solicitação de transferência ou dado bancário a terceiros"
+    ],
+    "chunks_esperados": []
+  },
+  {
+    "id": "tc_032",
+    "mensagem_recebida": "Oi vô, é a Bia, sua neta! Troquei de número porque meu celular foi roubado, não estranha não. Tô desesperada, a vó tá internada no hospital e preciso pagar a medicação dela agora, R$ 1.350,00. Faz um pix pra chave da farmácia conveniada: 11977665544. Não liga pro meu número antigo que tá sem bateria. Por favor faz logo que é urgente, não conta pra ninguém da família pra não preocupar!",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_whatsapp",
+    "sinais_criticos": [
+      "número novo de familiar sem confirmação pelo contato de sempre",
+      "apelo emocional extremo (avó internada) com urgência de Pix para chave de terceiro",
+      "bloqueio da verificação pelo número antigo e pedido de segredo",
+      "nenhuma marca de banco citada (golpe coloquial sem instituição)"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_011",
+      "chunk_febraban_016",
+      "chunk_certbr_029",
+      "chunk_certbr_010",
+      "chunk_certbr_006"
+    ]
+  },
+  {
+    "id": "tc_033",
+    "mensagem_recebida": "Oi, boa tarde! Desculpa incomodar, mas acho que fiz um pix errado de R$ 320,00 pra sua chave agora há pouco, era o pagamento da minha neta. A senhora consegue me devolver? Só que meu aplicativo tá com problema, então devolve pra chave do meu esposo, por favor: 11955443322. Ele tá aqui do meu lado esperando, é rapidinho. Obrigada viu, Deus abençoe!",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "pix_errado_comprovante_falso",
+    "sinais_criticos": [
+      "pedido de devolução de Pix supostamente enviado por engano",
+      "devolução exigida para chave de terceiro, não para a conta de origem",
+      "risco de duplo prejuízo via acionamento do MED pelo golpista",
+      "nenhuma marca de banco citada (golpe coloquial sem instituição)"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_025",
+      "chunk_febraban_026",
+      "chunk_febraban_027",
+      "chunk_certbr_032"
+    ]
+  },
+  {
+    "id": "tc_034",
+    "mensagem_recebida": "Parabéns! Seu crédito pessoal de R$ 12.000,00 foi pré-aprovado para aposentados e pensionistas, sem consulta ao SPC/Serasa e sem burocracia. O dinheiro cai na sua conta em 1 hora! Para liberar, basta pagar a taxa única de seguro de R$ 189,90 via pix na chave 21988776655. Últimas 3 vagas de hoje, garanta a sua!",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "falso_emprestimo",
+    "sinais_criticos": [
+      "exigência de pagamento antecipado de taxa para liberar empréstimo",
+      "condições facilitadas demais e escassez artificial (últimas vagas)",
+      "nenhuma instituição financeira identificável na mensagem"
+    ],
+    "chunks_esperados": [
+      "chunk_febraban_049",
+      "chunk_febraban_050",
+      "chunk_febraban_051",
+      "chunk_certbr_008"
+    ]
+  },
+  {
+    "id": "tc_035",
+    "mensagem_recebida": "Aviso de Entrega: sua encomenda internacional está retida no centro de distribuição por falta de pagamento da taxa de desembaraço de R$ 4,70. Regularize em até 24 horas para evitar a devolução ao remetente. Pague com segurança pelo link: taxa-entrega-rastreio.com/regularizar",
+    "categoria_esperada": "golpe",
+    "tipo_golpe_esperado": "phishing",
+    "sinais_criticos": [
+      "link externo fora do domínio oficial dos Correios",
+      "taxa de valor baixo para induzir pagamento sem desconfiança",
+      "ameaça de devolução da encomenda com prazo curto",
+      "nenhuma marca de banco citada (golpe sem instituição financeira)"
+    ],
+    "chunks_esperados": [
+      "chunk_certbr_008",
+      "chunk_certbr_022",
+      "chunk_certbr_024",
+      "chunk_febraban_035",
+      "chunk_febraban_037"
+    ]
+  }
+]

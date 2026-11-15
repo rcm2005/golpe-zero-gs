@@ -1,0 +1,20 @@
+[abertura]
+Olá! Este é o Golpe Zero, projeto da FIAP Global Solution dois mil e vinte e seis, disciplina Applied Computer Vision. Protegemos pessoas idosas contra golpes digitais: criminosos imitam bancos em prints de WhatsApp e SMS, com logotipos, chaves Pix e links maliciosos. Nosso módulo de visão computacional detecta esses elementos automaticamente.
+
+[dataset]
+O modelo é o YOLOv8 nano, treinado por dez épocas em cinco classes: logotipo de banco, chave Pix, link suspeito, QR code e selo falso. O dataset é cem por cento sintético: cento e vinte imagens de treino e trinta de validação, em modos claro e escuro. Usamos dados sintéticos para respeitar a LGPD, pois prints reais de vítimas conteriam dados pessoais sensíveis.
+
+[demo0000]
+Vejam uma execução real do script de inferência sobre uma imagem de validação. O modelo detectou quatro elementos: logotipo do banco, chave Pix, link suspeito e QR code, todos com confiança acima de noventa e seis por cento. O resultado é um JSON estruturado com nível de risco CRÍTICO e a imagem anotada com as caixas delimitadoras.
+
+[demo0002_0028]
+Nesta segunda imagem, as cinco classes aparecem juntas, incluindo o selo falso, e o risco também é CRÍTICO. Já nesta terceira, apenas o selo falso é detectado, com risco ALTO. Cada detecção informa classe, confiança e coordenadas da caixa, em pixels e normalizadas.
+
+[metricas]
+As métricas vêm dos artefatos de treino. Na época dez: mAP cinquenta de noventa e nove vírgula cinco por cento, mAP cinquenta a noventa e cinco de noventa e seis vírgula vinte e quatro, precisão de noventa e oito vírgula sete e recall de cem por cento. Por classe, o mAP varia de noventa e dois vírgula nove, na chave Pix, a noventa e nove vírgula zero oito, no logotipo.
+
+[api]
+Na integração, a API FastAPI recebe o print no endpoint analisar imagem, como arquivo multipart, com texto adicional opcional. O YOLO gera evidências visuais que alimentam o Agente Decisor em duas etapas, com a LLM local Qwen dois ponto cinco, três bilhões, e cartilhas oficiais da Febraban e do CERT br. A resposta traz veredito, tipo de golpe, sinais, fonte oficial e o próximo passo, em linguagem acolhedora.
+
+[conclusao]
+Com visão computacional leve, local e com privacidade, o Golpe Zero oferece uma primeira camada de proteção contra o estelionato digital. Código, relatório e vídeo no repositório público. Muito obrigado!

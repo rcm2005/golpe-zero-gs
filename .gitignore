@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.cache
+.DS_Store
+vision/demo/frames/
+vision/demo/*.aiff
+vision/demo/*.wav
+/yolov8n.pt
+/runs/
+vision/demo/seg_*.mp4
+vision/demo/video_noaudio.mp4
+vision/demo/audio_concat.txt
+vision/demo/video_concat.txt
+vision/runs/treino_golpe_zero/weights/last.pt
