@@ -247,6 +247,28 @@ python vision/build_video.py   # requer macOS com voz pt-BR (say) para narraçã
 | `POST` | `/api/analisar/imagem` | Recebe arquivo de imagem (print), executa YOLOv8 e consolida veredito multimodal. |
 | `GET` | `/api/buscar-chunks` | Realiza busca vetorial manual direta na base de 158 chunks oficiais. |
 
+### Exemplos de chamada (curl)
+
+```bash
+# Status da API, do motor vetorial e do Ollama
+curl http://localhost:8000/api/health
+
+# Análise de texto. "arquitetura": "agente" (padrão), "rag" ou "zero_shot"
+curl -X POST http://localhost:8000/api/analisar/texto \
+  -H "Content-Type: application/json" \
+  -d '{"texto": "Oi mãe, salvei esse número novo. Preciso de um Pix urgente de R$ 1.450.", "arquitetura": "agente"}'
+
+# Análise de print: campo "foto" (arquivo) e "texto_adicional" (opcional)
+curl -X POST http://localhost:8000/api/analisar/imagem \
+  -F "foto=@vision/dataset/images/val/golpe_val_0002.jpg" \
+  -F "texto_adicional=recebi isso no WhatsApp"
+
+# Busca direta na base oficial: q (consulta) e k (quantidade de trechos)
+curl "http://localhost:8000/api/buscar-chunks?q=motoboy%20buscar%20cartao&k=3"
+```
+
+A documentação interativa (Swagger) fica em `http://localhost:8000/docs`. A API precisa do Ollama ativo com o modelo `qwen2.5:3b` para as respostas da etapa 2.
+
 ### Exemplo de Requisição (`POST /api/analisar/texto`):
 ```json
 {
