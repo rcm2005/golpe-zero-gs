@@ -242,17 +242,20 @@ A integração de visão computacional ao ecossistema do Golpe Zero preenche uma
 
 Como limitações, o dataset é sintético e de pequena escala (150 imagens); embora os resultados sejam consistentes, a generalização para prints reais de dispositivos variados deve ser confirmada em validação futura com dados anonimizados e consentidos (LGPD). Ainda assim, a solução demonstra uma camada de proteção leve, executável localmente e com privacidade, voltada ao público 60+.
 
-O vídeo de demonstração da solução funcionando está disponível em [demo/video_demo_visao.mp4](demo/video_demo_visao.mp4) e é detalhado na seção 9.
+O vídeo de demonstração da solução funcionando está disponível em https://youtu.be/nZn544MLiM8 e é detalhado na seção 9.
 
 ---
 
 ## 9. Vídeo de Demonstração
 
-O vídeo de demonstração está em [demo/video_demo_visao.mp4](demo/video_demo_visao.mp4) (1280×720, H.264/yuv420p, duração inferior a 180 s, narração pt-BR gerada por TTS macOS - voz Luciana). Ele é produzido por `vision/build_video.py` a partir de execuções reais de inferência e dos artefatos de treino, com o seguinte conteúdo:
+O vídeo de demonstração da solução funcionando está no YouTube (não listado): https://youtu.be/nZn544MLiM8
 
-1. **Abertura e problema:** identidade do projeto e o desafio do estelionato digital contra idosos.
-2. **Dataset e 5 classes:** origem 100% sintética (LGPD), 120 treino / 30 validação, e as cinco classes detectadas.
-3. **Detecções reais:** imagens de validação anotadas lado a lado com o JSON de saída de `vision/inference.py` (golpe_val_0000, golpe_val_0002 e golpe_val_0028).
-4. **Métricas de treino:** curvas por época e mAP por classe, extraídas de `results.csv` e `training_metrics.json`.
-5. **Integração com a API:** contrato real do endpoint `POST /api/analisar/imagem` (`src/api.py`) e o fluxo até o Agente Decisor.
-6. **Conclusão:** síntese dos resultados e impacto social para o público 60+.
+Gravado pela equipe, com execuções reais, ele mostra em sequência:
+
+1. **Problema e objetivo:** prints de golpe com logo de banco, chave Pix, QR code e selo falso, que filtros de texto não leem.
+2. **Modelo e dataset:** YOLOv8n com fine-tuning para 5 classes; dataset 100% sintético (LGPD), 120 imagens de treino e 30 de validação, e o gerador sintético em `vision/gerador_sintetico.py`.
+3. **Treino e métricas:** 10 épocas, batch 8, 640 px; mAP@50 de 99,5% e as métricas por classe.
+4. **Inferência real:** `vision/inference.py` sobre um print, com a imagem anotada e o JSON de saída com o nível de risco.
+5. **Tempo real:** o mesmo modelo detectando pela câmera.
+6. **Integração:** o print enviado ao endpoint `POST /api/analisar/imagem` e a resposta do agente.
+7. **Conclusão e limitação:** dados apenas sintéticos; a validação com prints reais anonimizados e consentidos é o próximo passo.

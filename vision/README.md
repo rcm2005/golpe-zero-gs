@@ -24,7 +24,7 @@ Detecta cinco elementos gráficos típicos de golpes em capturas de tela de What
 | Código completo | [gerador_sintetico.py](gerador_sintetico.py), [train_yolo.py](train_yolo.py), [inference.py](inference.py), [tempo_real.py](tempo_real.py) |
 | Dataset anotado em padrão YOLO | [dataset/](dataset/) (120 treino, 30 validação) |
 | Pesos e métricas do treino | [weights/best.pt](weights/best.pt), [training_metrics.json](training_metrics.json), [runs/treino_golpe_zero/](runs/treino_golpe_zero/) |
-| Vídeo de demonstração | [demo/video_demo_visao.mp4](demo/video_demo_visao.mp4) |
+| Vídeo de demonstração | [YouTube (não listado)](https://youtu.be/nZn544MLiM8) · versão anterior em slides: [demo/video_demo_visao.mp4](demo/video_demo_visao.mp4) |
 
 ## Resultados (validação, 30 imagens sintéticas)
 

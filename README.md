@@ -38,10 +38,10 @@ O sistema roda localmente: nenhuma mensagem ou imagem sai da máquina (LGPD). Pa
 
 O produto é um só, e cada disciplina avalia a sua parte em documentos próprios:
 
-| Disciplina | Professor | Onde está | Relatório |
-| :--- | :--- | :--- | :--- |
-| Generative AI for Engineering | Francisco Elânio Bezerra | Este README, `src/`, `base/`, `avaliacao/`, `notebooks/`, `adapters/` | [relatorio/RELATORIO_GENAI.md](relatorio/RELATORIO_GENAI.md) |
-| Applied Computer Vision | Arnaldo Viana e Paulo Rodrigues | [vision/](vision/) com README próprio | [vision/RELATORIO_VISAO.pdf](vision/RELATORIO_VISAO.pdf) |
+| Disciplina | Professor | Onde está | Relatório | Vídeo |
+| :--- | :--- | :--- | :--- | :--- |
+| Generative AI for Engineering | Francisco Elânio Bezerra | Este README, `src/`, `base/`, `avaliacao/`, `notebooks/`, `adapters/` | [relatorio/RELATORIO_GENAI.md](relatorio/RELATORIO_GENAI.md) | [YouTube](https://youtu.be/shoRVxCXruM) |
+| Applied Computer Vision | Arnaldo Viana e Paulo Rodrigues | [vision/](vision/) com README próprio | [vision/RELATORIO_VISAO.pdf](vision/RELATORIO_VISAO.pdf) | [YouTube](https://youtu.be/nZn544MLiM8) |
 
 **Generative AI for Engineering.** Relatório com os 7 tópicos da rubrica; [auditoria dos 5 erros](relatorio/07_auditoria_erros.md); [comparativo LoRA vs RAG simples](relatorio/05_lora.md); [notebook do pipeline](notebooks/01_pipeline_golpe_zero.ipynb) e [notebook do LoRA](notebooks/02_fine_tuning_lora.ipynb) com saídas; benchmark de 35 casos em [avaliacao/benchmark.py](avaliacao/benchmark.py).
 
@@ -154,7 +154,7 @@ golpe-zero-gs/
     ├── RELATORIO_VISAO.pdf             # Entregável PDF na ordem da rubrica
     ├── build_pdf.py                    # Gerador reproduzível do PDF
     ├── build_video.py                  # Gerador reproduzível do vídeo de demonstração
-    └── demo/video_demo_visao.mp4       # Vídeo de demonstração (≤ 3 min)
+    └── demo/video_demo_visao.mp4       # Versão anterior do vídeo (slides); o vídeo oficial está no YouTube
 ```
 
 ---

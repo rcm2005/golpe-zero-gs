@@ -178,7 +178,8 @@ Detalhamento com trechos de código em [07_auditoria_erros.md](07_auditoria_erro
 
 **Links.**
 * Repositório: [github.com/rcm2005/golpe-zero-gs](https://github.com/rcm2005/golpe-zero-gs)
-* Vídeo de demonstração: [vision/demo/video_demo_visao.mp4](../vision/demo/video_demo_visao.mp4)
+* Vídeo de demonstração (Generative AI for Engineering): [YouTube](https://youtu.be/shoRVxCXruM)
+* Vídeo de demonstração (Applied Computer Vision): [YouTube](https://youtu.be/nZn544MLiM8)
 * Notebooks: [01_pipeline_golpe_zero.ipynb](../notebooks/01_pipeline_golpe_zero.ipynb) · [02_fine_tuning_lora.ipynb](../notebooks/02_fine_tuning_lora.ipynb)
 * Erros: [07_auditoria_erros.md](07_auditoria_erros.md) · LoRA: [05_lora.md](05_lora.md)
 * Base e testes: [chunks_oficiais.json](../base/chunks_oficiais.json) · [test_cases.json](../avaliacao/test_cases.json) · [test_cases_stress.json](../avaliacao/test_cases_stress.json)
