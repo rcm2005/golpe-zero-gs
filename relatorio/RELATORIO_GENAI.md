@@ -183,4 +183,3 @@ Detalhamento com trechos de código em [07_auditoria_erros.md](07_auditoria_erro
 * Erros: [07_auditoria_erros.md](07_auditoria_erros.md) · LoRA: [05_lora.md](05_lora.md)
 * Base e testes: [chunks_oficiais.json](../base/chunks_oficiais.json) · [test_cases.json](../avaliacao/test_cases.json) · [test_cases_stress.json](../avaliacao/test_cases_stress.json)
 * Placares: [placar_benchmark.json](../avaliacao/placar_benchmark.json) · [placar_lora.json](../avaliacao/placar_lora.json) · [recall_busca.json](../avaliacao/recall_busca.json)
-* Relatório de Visão: [RELATORIO_VISAO.md](../vision/RELATORIO_VISAO.md)

@@ -34,22 +34,18 @@ O Golpe Zero ajuda pessoas com 60 anos ou mais a identificar golpes de Pix e Wha
 
 O sistema roda localmente: nenhuma mensagem ou imagem sai da máquina (LGPD). Para prints, um YOLOv8n detecta logotipos de banco, chaves Pix, links suspeitos, QR codes e selos falsos. O texto e o resumo visual passam por um agente de duas etapas: uma busca vetorial implementada em NumPy sobre 158 trechos de cartilhas oficiais (Febraban, Banco Central, CERT.br, Procon-SP e SSP-SP) e um LLM local (Qwen 2.5:3B via Ollama) que responde em JSON.
 
-### Disciplinas atendidas
+### Entregas por disciplina
 
-1. **Generative AI for Engineering** (Prof. Francisco Elânio Bezerra)
-   * Relatório com os 7 tópicos exigidos ([relatorio/RELATORIO_GENAI.md](relatorio/RELATORIO_GENAI.md));
-   * Auditoria dos 5 erros reais com causa-raiz técnica ([relatorio/07_auditoria_erros.md](relatorio/07_auditoria_erros.md));
-   * Comparativo de especialização LoRA vs RAG simples ([relatorio/05_lora.md](relatorio/05_lora.md));
-   * Caderno executável de Fine-Tuning com LoRA / PEFT ([notebooks/02_fine_tuning_lora.ipynb](notebooks/02_fine_tuning_lora.ipynb));
-   * Benchmark comparativo das 3 arquiteturas com 35 casos de teste ([avaliacao/benchmark.py](avaliacao/benchmark.py)).
-2. **Applied Computer Vision** (Profs. Arnaldo Viana e Paulo Rodrigues)
-   * Detecção das 5 classes críticas: `logo_banco`, `chave_pix`, `link_suspeito`, `qr_code`, `selo_falso`;
-   * Dataset anotado no padrão YOLO com gerador sintético ([vision/gerador_sintetico.py](vision/gerador_sintetico.py));
-   * Script de treinamento e fine-tuning YOLOv8n ([vision/train_yolo.py](vision/train_yolo.py));
-   * Script de inferência estruturada em JSON com bounding boxes ([vision/inference.py](vision/inference.py));
-   * Detecção em tempo real em câmera ou vídeo, com FPS ([vision/tempo_real.py](vision/tempo_real.py));
-   * Relatório formal em PDF dentro dos limites de palavras da rubrica ([vision/RELATORIO_VISAO.pdf](vision/RELATORIO_VISAO.pdf));
-   * Vídeo de demonstração da solução funcionando ([vision/demo/video_demo_visao.mp4](vision/demo/video_demo_visao.mp4)).
+O produto é um só, e cada disciplina avalia a sua parte em documentos próprios:
+
+| Disciplina | Professor | Onde está | Relatório |
+| :--- | :--- | :--- | :--- |
+| Generative AI for Engineering | Francisco Elânio Bezerra | Este README, `src/`, `base/`, `avaliacao/`, `notebooks/`, `adapters/` | [relatorio/RELATORIO_GENAI.md](relatorio/RELATORIO_GENAI.md) |
+| Applied Computer Vision | Arnaldo Viana e Paulo Rodrigues | [vision/](vision/) com README próprio | [vision/RELATORIO_VISAO.pdf](vision/RELATORIO_VISAO.pdf) |
+
+**Generative AI for Engineering.** Relatório com os 7 tópicos da rubrica; [auditoria dos 5 erros](relatorio/07_auditoria_erros.md); [comparativo LoRA vs RAG simples](relatorio/05_lora.md); [notebook do pipeline](notebooks/01_pipeline_golpe_zero.ipynb) e [notebook do LoRA](notebooks/02_fine_tuning_lora.ipynb) com saídas; benchmark de 35 casos em [avaliacao/benchmark.py](avaliacao/benchmark.py).
+
+**Applied Computer Vision.** Detector YOLOv8n de 5 classes, dataset sintético, treino, inferência, tempo real, PDF e vídeo. Tudo em [vision/README.md](vision/README.md).
 
 ---
 
@@ -209,32 +205,13 @@ O treino exige GPU. No Google Colab, abra `notebooks/colab_lora.ipynb` com runti
 python -m notebooks.gerar_notebook_lora
 ```
 
-### 5.4. Treinar o Modelo de Visão Computacional (YOLOv8n)
-```bash
-python vision/gerador_sintetico.py
-python vision/train_yolo.py
-```
-*Salva os pesos em `vision/weights/best.pt` e as métricas em `vision/training_metrics.json`.*
-
-### 5.5. Executar Inferência Visual Isolada
-```bash
-python vision/inference.py vision/dataset/images/val/golpe_val_0000.jpg
-python -m vision.tempo_real --fonte 0 --mostrar          # câmera em tempo real
-python -m vision.tempo_real --fonte gravacao.mp4         # vídeo, salva anotado
-```
-*Salva o print anotado em `vision/output_inferencia/resultado_deteccao.jpg` e imprime o JSON.*
-
-### 5.6. Iniciar a API REST FastAPI
+### 5.4. Iniciar a API REST FastAPI
 ```bash
 uvicorn src.api:app --reload --port 8000
 ```
 *Acesse a documentação interativa Swagger em:* [http://localhost:8000/docs](http://localhost:8000/docs)
 
-### 5.7. Reproduzir PDF e Vídeo da disciplina de Visão
-```bash
-python vision/build_pdf.py
-python vision/build_video.py   # requer macOS com voz pt-BR (say) para narração
-```
+Para treinar e testar o módulo de visão (YOLOv8n), veja [vision/README.md](vision/README.md).
 
 ---
 
