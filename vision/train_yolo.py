@@ -33,11 +33,6 @@ def treinar_modelo_yolo(epochs: int = 10, batch_size: int = 8, imgsz: int = 640)
     print(f"Dataset: {DATA_YAML}")
     print(f"Épocas: {epochs} | Batch: {batch_size} | Resolução: {imgsz}x{imgsz}")
 
-    # O YAML usa o caminho absoluto do dataset desta maquina: reescreve a chave path
-    linhas = DATA_YAML.read_text(encoding="utf-8").splitlines()
-    linhas[0] = f"path: {DATA_YAML.parent}"
-    DATA_YAML.write_text("\n".join(linhas) + "\n", encoding="utf-8")
-
     # Carrega modelo base pré-treinado nano
     model = YOLO("yolov8n.pt")
 

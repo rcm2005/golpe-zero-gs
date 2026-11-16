@@ -1,6 +1,6 @@
 # Golpe Zero - Relatório Técnico de Visão Computacional Aplicada
 
-**FIAP Global Solution 2026.2 • CitizenTech**
+**FIAP Global Solution 2026.2, CitizenTech**
 **Disciplina:** Applied Computer Vision
 **Docentes:** Prof. Arnaldo Viana e Prof. Paulo Rodrigues
 **Projeto:** Golpe Zero - Sistema Multimodal de Proteção de Idosos 60+ contra Fraudes Digitais em SP

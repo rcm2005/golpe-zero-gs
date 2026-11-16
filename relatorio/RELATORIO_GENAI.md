@@ -1,4 +1,4 @@
-# FIAP Global Solution 2026.2 • CitizenTech
+# FIAP Global Solution 2026.2, CitizenTech
 # Golpe Zero - Relatório Técnico de Engenharia de IA Generativa
 **Disciplina:** Generative AI for Engineering · **Docente:** Prof. Francisco Elânio Bezerra · **Data:** Novembro de 2026
 
@@ -88,18 +88,18 @@ flowchart TD
 
 ## 4. Base de Conhecimento: fonte, formato, licença e número de trechos
 
-A base vetorial do Golpe Zero é composta por **158 chunks curados** extraídos de fontes primárias e governamentais brasileiras pelo pipeline de ingestão (`src/ingestion.py`: extração HTML/PDF → limpeza → chunking de 280–550 caracteres com sobreposição de 40 → JSON com metadados `id`, `fonte`, `url`, `licenca`, `tipo_golpe`). Todas as informações estão em conformidade com as legislações de utilidade pública e livre distribuição educacional:
+A base vetorial do Golpe Zero é composta por **158 chunks curados** extraídos de fontes primárias e governamentais brasileiras pelo pipeline de ingestão (`src/ingestion.py`: extração HTML/PDF → limpeza → chunking com alvo de 280 a 550 caracteres → JSON com metadados `id`, `fonte`, `url`, `licenca`, `tipo_golpe`). Os trechos medem entre 91 e 786 caracteres (mediana de 442), porque blocos curtos de normas e quebras de seção não são fundidos. A coluna de licença reproduz o campo `licenca` de cada trecho no JSON; todas as fontes são públicas, e o CERT.br exige atribuição e uso não comercial (CC BY-NC-SA 4.0).
 
 | Instituição Fonte | Escopo Temático Principal | Formato (origem → artefato) | Qtd. Chunks | Licença / Base Legal |
 | :--- | :--- | :--- | :---: | :--- |
-| **Febraban** (Federação Brasileira de Bancos) | Cartilhas Antifraude: Falsa Central Telefônica, Falso Motoboy, Golpe do WhatsApp/Novo Número, Mão Fantasma (Acesso Remoto), Golpe do Pix Errado, Troca de Cartão, Maquininha Quebrada e Falso Advogado. | Cartilha web (páginas HTML "Como é / Como evitar" do Portal Antifraudes) → chunk JSON | 70 | Domínio Público / Campanha Institucional Aberta Febraban Antifraudes |
-| **CERT.br / NIC.br** (CGI.br) | Cartilha de Segurança para a Internet: Phishing, Engenharia Social, Engenharia Reversa de Golpes, Fraudes de Comércio Eletrônico e Passos de Remediação. | Cartilha web/PDF (fascículos "Golpes" extraídos via `pypdf`) → chunk JSON | 65 | Licença Aberta Creative Commons Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA 4.0) |
-| **Banco Central do Brasil (BCB)** | Resoluções BCB nº 103 e nº 147: Funcionamento do Mecanismo Especial de Devolução (MED), Bloqueio Cautelar do Pix, Limites Noturnos e Normas de Contestação. | Notícia/norma web (páginas e textos normativos MED/Pix) → chunk JSON | 14 | Lei de Acesso à Informação (Lei 12.527/2011) e Atos Normativos Federais Públicos |
-| **Procon-SP** | Cartilhas do Consumidor Idoso: Súmula 479 do STJ (Responsabilidade Objetiva dos Bancos), Art. 49 do CDC, Contestação de Compras Não Reconhecidas e Alertas de Lojas Falsas. | Cartilha/alerta web (páginas institucionais CDC e "Evite esses sites") → chunk JSON | 5 | Informação Governamental de Utilidade Pública (Governo de SP) |
-| **SSP-SP** (Polícia Civil de SP) | Cartilha da Delegacia Eletrônica: Registro de Boletim de Ocorrência Digital, Artigo 171 § 2º-A do CP (Fraude Eletrônica) e Preservação da Cadeia de Custódia Digital. | Cartilha web (Delegacia Eletrônica / tipificação penal) → chunk JSON | 4 | Informação Pública de Segurança Pública do Estado de São Paulo |
-| **TOTAL CONSOLIDADO** | **158 Chunks Estruturados com Metadados e IDs Únicos** | **100% JSON auditável** (`base/chunks_oficiais.json`) | **158** | **100% Auditável, Legal e em Domínio Público/Educacional** |
+| **Febraban** (Federação Brasileira de Bancos) | Cartilhas Antifraude: Falsa Central Telefônica, Falso Motoboy, Golpe do WhatsApp/Novo Número, Mão Fantasma (Acesso Remoto), Golpe do Pix Errado, Troca de Cartão, Maquininha Quebrada e Falso Advogado. | Cartilha web (páginas HTML "Como é / Como evitar" do Portal Antifraudes) → chunk JSON | 70 | Uso educacional e informativo público (Febraban) |
+| **CERT.br / NIC.br** (CGI.br) | Cartilha de Segurança para a Internet: Phishing, Engenharia Social, Engenharia Reversa de Golpes, Fraudes de Comércio Eletrônico e Passos de Remediação. | Cartilha web/PDF (fascículos "Golpes" extraídos via `pypdf`) → chunk JSON | 65 | CC BY-NC-SA 4.0 |
+| **Banco Central do Brasil (BCB)** | Resoluções BCB nº 103 e nº 147: Funcionamento do Mecanismo Especial de Devolução (MED), Bloqueio Cautelar do Pix, Limites Noturnos e Normas de Contestação. | Notícia/norma web (páginas e textos normativos MED/Pix) → chunk JSON | 14 | Conteúdo governamental aberto (domínio público, governo federal) |
+| **Procon-SP** | Cartilhas do Consumidor Idoso: Súmula 479 do STJ (Responsabilidade Objetiva dos Bancos), Art. 49 do CDC, Contestação de Compras Não Reconhecidas e Alertas de Lojas Falsas. | Cartilha/alerta web (páginas institucionais CDC e "Evite esses sites") → chunk JSON | 5 | Conteúdo institucional aberto, utilidade pública (Procon-SP) |
+| **SSP-SP** (Polícia Civil de SP) | Cartilha da Delegacia Eletrônica: Registro de Boletim de Ocorrência Digital, Artigo 171 § 2º-A do CP (Fraude Eletrônica) e Preservação da Cadeia de Custódia Digital. | Cartilha web (Delegacia Eletrônica / tipificação penal) → chunk JSON | 4 | Conteúdo governamental oficial, utilidade pública (SSP-SP) |
+| **Total** | 158 trechos com `id` único, fonte, URL e licença | JSON em `base/chunks_oficiais.json` | **158** | Cinco licenças, uma por fonte |
 
-*Contagens verificadas por execução real sobre `base/chunks_oficiais.json` (70 + 65 + 14 + 5 + 4 = 158).*
+Contagens conferidas por script sobre `base/chunks_oficiais.json` (70 + 65 + 14 + 5 + 4 = 158). As URLs das fontes foram testadas; os trechos do Procon-SP apontam para a seção de direitos do consumidor do site, porque as páginas específicas citadas na coleta inicial saíram do ar.
 
 ---
 

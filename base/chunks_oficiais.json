@@ -1194,7 +1194,7 @@
   {
     "id": "chunk_proconsp_001",
     "fonte": "Procon-SP - Direito de Arrependimento nas Compras Online (Artigo 49 do CDC)",
-    "url": "https://www.procon.sp.gov.br/direito-de-arrependimento/",
+    "url": "https://www.procon.sp.gov.br/direitos-do-consumidor/",
     "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
     "tipo_golpe": "direito_arrependimento",
     "conteudo": "Conforme o artigo 49 do Código de Defesa do Consumidor (CDC), o consumidor pode desistir do contrato no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação ocorrer fora do estabelecimento comercial (pela internet, telefone ou catálogo). O cancelamento no prazo garante a devolução imediata e integral de todos os valores pagos, inclusive eventuais despesas com frete, sem qualquer ônus ou taxa."
@@ -1202,7 +1202,7 @@
   {
     "id": "chunk_proconsp_002",
     "fonte": "Procon-SP - Responsabilidade Objetiva dos Bancos em Fraudes (Súmula 479 do STJ)",
-    "url": "https://www.procon.sp.gov.br/alertas-golpes-financeiros/",
+    "url": "https://www.procon.sp.gov.br/direitos-do-consumidor/",
     "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
     "tipo_golpe": "responsabilidade_bancaria",
     "conteudo": "Nos termos da Súmula 479 do Superior Tribunal de Justiça (STJ), as instituições financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias. Cabe à instituição bancária provar a culpa exclusiva do consumidor ou a inexistência de defeito na prestação de serviço de segurança das suas plataformas."
@@ -1210,7 +1210,7 @@
   {
     "id": "chunk_proconsp_003",
     "fonte": "Procon-SP - Cancelamento e Contestação de Transações Não Reconhecidas no Cartão",
-    "url": "https://www.procon.sp.gov.br/cartao-de-credito-fraude/",
+    "url": "https://www.procon.sp.gov.br/direitos-do-consumidor/",
     "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
     "tipo_golpe": "contestacao_cartao",
     "conteudo": "Em casos de compras não reconhecidas, clonagem de dados ou fraude por furto ou roubo de cartão, o Procon-SP orienta o consumidor a registrar imediatamente contestação formal (chargeback) perante a administradora do cartão de crédito e anotar o protocolo de atendimento. A operadora não pode exigir o pagamento de faturas com cobranças contestadas sob averiguação tempestiva."
@@ -1226,7 +1226,7 @@
   {
     "id": "chunk_proconsp_005",
     "fonte": "Procon-SP - Direitos do Consumidor em Golpes de Intermediação de Pagamentos",
-    "url": "https://www.procon.sp.gov.br/golpes-compras-online/",
+    "url": "https://www.procon.sp.gov.br/direitos-do-consumidor/",
     "licenca": "Conteúdo institucional aberto / utilidade pública (Procon-SP)",
     "tipo_golpe": "responsabilidade_bancaria",
     "conteudo": "Plataformas de marketplace e intermediadores de pagamentos que integram a cadeia de consumo e viabilizam o processamento de compras online fraudulentas possuem responsabilidade solidária pela reparação de danos quando falham em seus deveres de validação dos fornecedores e conferência da idoneidade dos anúncios promovidos em seus ecossistemas digitais."

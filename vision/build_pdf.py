@@ -480,15 +480,6 @@ def build_cover(pdf: PDF, header):
         clean = re.sub(r"\*\*(.+?)\*\*", r"\1", m)
         pdf.multi_cell(0, 7, clean, align="C", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(1)
-    pdf.ln(20)
-    pdf.set_font("DejaVu", "I", 10)
-    pdf.set_text_color(*GRAY)
-    pdf.set_x(pdf.l_margin)
-    pdf.multi_cell(0, 6,
-                   "Documento gerado automaticamente por vision/build_pdf.py a partir de "
-                   "vision/RELATORIO_VISAO.md, com metricas conferidas contra os artefatos "
-                   "reais de treino (results.csv e training_metrics.json).",
-                   align="C", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
 
 def main():
