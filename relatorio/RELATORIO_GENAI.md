@@ -146,7 +146,15 @@ Medido por `python -m src.vector_search` sobre os 15 golpes do split principal, 
 
 ### 5.4 Especialização paramétrica: LoRA vs RAG simples
 
-Um adapter LoRA (r=8, alpha=16, `q_proj` e `v_proj`) é treinado sobre o Qwen2.5-0.5B-Instruct com 240 exemplos sintéticos disjuntos do gabarito (`notebooks/dataset_lora.py`, com verificação automática de vazamento) e comparado, nos 35 casos held-out, ao RAG simples e ao zero-shot **na mesma base de 0.5B**. O treino exige GPU e roda no Google Colab (`notebooks/colab_lora.ipynb`); o protocolo, o placar e a interpretação ficam em [05_lora.md](05_lora.md) e `avaliacao/placar_lora.json`, e a execução com saídas em [02_fine_tuning_lora.ipynb](../notebooks/02_fine_tuning_lora.ipynb).
+Um adapter LoRA (r=8, alpha=16, `q_proj` e `v_proj`; 540 mil parâmetros treináveis, 0,11% do modelo) foi treinado sobre o Qwen2.5-0.5B-Instruct com 240 exemplos sintéticos disjuntos do gabarito (`notebooks/dataset_lora.py`, com verificação automática de vazamento). O treino rodou no Google Colab com GPU T4 em 116 s (loss de 1,54 para 0,62). A avaliação é nos mesmos 35 casos, comparando LoRA, RAG simples e zero-shot **na mesma base de 0.5B**.
+
+| Base 0.5B | Acurácia | Alucinação | JSON válido | Fundamentação |
+| :--- | :---: | :---: | :---: | :---: |
+| Zero-shot | 25,7% | 28,6% | 100% | 5,3% |
+| RAG simples | 54,3% | 45,7% | 100% | 5,3% |
+| **LoRA** | **71,4%** | **14,3%** | 97,1% | 84,2% |
+
+O LoRA supera o RAG simples em 17 pontos de acurácia e corrige os avisos bancários legítimos que o RAG classifica como golpe (`tc_016`, `tc_017`, `tc_020`, `tc_027`). Ele continua errando os casos adversariais `tc_029` a `tc_031`. A fundamentação de 84,2% reflete o mapeamento de fonte fixado no dataset de treino, não leitura de trecho, e deve ser lida com essa ressalva. O 0.5B com LoRA (71,4%) fica abaixo do 3B de produção (80 a 85,7%). Protocolo completo, evidências do Colab e interpretação em [05_lora.md](05_lora.md); resultados por caso em `avaliacao/placar_lora.json`; execução com saídas em [02_fine_tuning_lora.ipynb](../notebooks/02_fine_tuning_lora.ipynb).
 
 ---
 
@@ -159,14 +167,14 @@ Detalhamento com trechos de código em [07_auditoria_erros.md](07_auditoria_erro
 | 1 | Primeira execução do placar: zero-shot e RAG acertaram 68,6% e classificaram como `golpe` 11 dos 16 casos legítimos ou fora de domínio (alucinação de 31,4%). | O prompt mandava "proteger o idoso" sem critério de decisão; o 3B tratou qualquer aviso como golpe. | Critérios explícitos de `golpe`, `legitimo` e `nao_consta` no prompt de sistema. Zero-shot foi a 85,7% e a alucinação caiu a 14,3%. |
 | 2 | Com limiar 0,48 o agente recusou 3 golpes reais (`tc_009` Correios, `tc_013` DETRAN, `tc_014` loja falsa) e a acurácia caiu para 60%. | Esses golpes não têm chunk próprio na base e o embedding em inglês dá score baixo (mín 0,3958). | Piso 0,35 mais portão lexical de domínio. O agente não recusa mais nenhum golpe. |
 | 3 | Ao enquadrar o contexto como "material de referência que NÃO indica golpe", o RAG errou 21 de 35 casos, quase todos respondendo `nao_consta` (acurácia 40%). | A instrução negativa levou o 3B a ignorar o conteúdo da mensagem. | Instrução de comparação: pede golpe se a mensagem seguir o molde de golpe descrito, `legitimo` se for aviso informativo, `nao_consta` se não for financeiro. Acurácia do RAG foi a 80%. |
-| 4 | `tc_017` e `tc_027` (código de verificação do Caixa Tem, legítimo) saem como `golpe`; `tc_016` e `tc_020` mudam de veredito com RAG. | O 3B associa "código" e "segurança" a fraude e o contexto de golpes reforça o viés. | Não corrigido nesta versão. Proposta: exemplos de avisos legítimos no treino LoRA e no prompt, e chunks da base com o formato de mensagens legítimas dos bancos. |
-| 5 | `tc_029`, `tc_030` e `tc_031` (bolo, pelada, jogo com "urgente", "prazo", "conta") viram `golpe` nas três configurações. | Passam pelo portão lexical por usarem palavras financeiras e o 3B não os recusa. | Não corrigido. Proposta: exemplos adversariais no treino LoRA, e pessoa no circuito: o `proximo_passo` de um `golpe` recomenda confirmar com familiar ou banco antes de agir. |
+| 4 | `tc_017` e `tc_027` (código de verificação do Caixa Tem, legítimo) saem como `golpe`; `tc_016` e `tc_020` mudam de veredito com RAG. | O 3B associa "código" e "segurança" a fraude e o contexto de golpes reforça o viés. | Não corrigido nesta versão. Proposta: exemplos de avisos legítimos no treino e chunks da base com o formato de mensagens legítimas dos bancos. Na base de 0.5B, o LoRA já corrigiu esses 4 casos (seção 5.4); falta treinar sobre o 3B. |
+| 5 | `tc_029`, `tc_030` e `tc_031` (bolo, pelada, jogo com "urgente", "prazo", "conta") viram `golpe` nas três configurações. | Passam pelo portão lexical por usarem palavras financeiras e o 3B não os recusa. | Não corrigido. Proposta: exemplos adversariais no treino (o LoRA de 0.5B ainda errou os três) e pessoa no circuito: o `proximo_passo` de um `golpe` recomenda confirmar com familiar ou banco antes de agir. |
 
 ---
 
 ## 7. Conclusão Técnica e Links
 
-**Conclusão.** O pipeline entrega JSON válido em 100% dos 35 casos, cita fonte oficial verificável (100% com RAG contra 68% sem contexto) e recusa em milissegundos mensagens claramente fora de domínio. Em veredito, o zero-shot com prompt de critérios (85,7%) ficou 2 casos à frente de RAG e agente (80%), então a vantagem do contexto aqui é rastreabilidade, não acurácia. Os pontos fracos medidos são o viés do 3B contra avisos bancários legítimos e os casos adversariais com vocabulário financeiro, que a especialização LoRA e mais exemplos devem atacar. O recall@1 de 33% mostra que o embedding em inglês é o gargalo de recuperação. O sistema apoia a decisão do idoso e não a substitui: toda orientação de golpe pede confirmação por canal oficial.
+**Conclusão.** O pipeline entrega JSON válido em 100% dos 35 casos, cita fonte oficial verificável (100% com RAG contra 68% sem contexto) e recusa em milissegundos mensagens claramente fora de domínio. Em veredito, o zero-shot com prompt de critérios (85,7%) ficou 2 casos à frente de RAG e agente (80%), então a vantagem do contexto aqui é rastreabilidade, não acurácia. Os pontos fracos medidos são o viés do 3B contra avisos bancários legítimos e os casos adversariais com vocabulário financeiro, que o LoRA corrigiu em parte no modelo de 0.5B (avisos legítimos) mas não nos adversariais. O recall@1 de 33% mostra que o embedding em inglês é o gargalo de recuperação. O sistema apoia a decisão do idoso e não a substitui: toda orientação de golpe pede confirmação por canal oficial.
 
 **Links.**
 * Repositório: [github.com/rcm2005/golpe-zero-gs](https://github.com/rcm2005/golpe-zero-gs)

@@ -1,0 +1,29 @@
+{
+  "modelo_base": "Qwen/Qwen2.5-0.5B-Instruct",
+  "dispositivo": "cuda",
+  "exemplos_treino": 240,
+  "epocas": 3,
+  "batch": 4,
+  "lr": 0.0002,
+  "semente": 7,
+  "parametros_treinaveis": 540672,
+  "parametros_total": 494573440,
+  "tempo_treino_seg": 115.6,
+  "historico": [
+    {
+      "epoca": 1,
+      "loss_media": 1.5386,
+      "loss_final": 1.4064
+    },
+    {
+      "epoca": 2,
+      "loss_media": 0.8227,
+      "loss_final": 0.5273
+    },
+    {
+      "epoca": 3,
+      "loss_media": 0.6221,
+      "loss_final": 0.8486
+    }
+  ]
+}

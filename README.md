@@ -21,7 +21,7 @@ Detecção de golpes de Pix e WhatsApp para pessoas com 60+ anos. FIAP Global So
 | **Proposta de valor** | Análise multimodal (visão computacional + RAG oficial + agente decisor) 100% local que devolve veredito e orientação imperativa e acolhedora, fundamentada em Febraban, Banco Central, CERT.br, Procon-SP e SSP-SP, sem enviar dados pessoais à nuvem. |
 | **Arquitetura: componentes** | Módulo de visão YOLOv8n (5 classes) · Motor vetorial manual NumPy (all-MiniLM-L6-v2, 158 chunks) · Agente Decisor em 2 etapas (portão de domínio + piso 0.35) · LLM local Qwen2.5:3B via Ollama · API REST FastAPI · Estudo de especialização LoRA em Qwen2.5-0.5B-Instruct |
 | **Fontes de dados** | Cartilhas e normas oficiais: Febraban, CERT.br/NIC.br, Banco Central do Brasil, Procon-SP, SSP-SP (158 chunks com fonte, URL e licença) · Dataset sintético de 150 capturas de tela anotadas em padrão YOLO (geração própria, sem dados de vítimas - LGPD) |
-| **Modelos de IA utilizados** | YOLOv8n (fine-tuning supervisionado) · sentence-transformers/all-MiniLM-L6-v2 · Qwen2.5:3B Instruct (Ollama, 4-bit) · Qwen2.5-0.5B-Instruct + adapter LoRA (estudo de especialização, treino no Colab) |
+| **Modelos de IA utilizados** | YOLOv8n (fine-tuning supervisionado) · sentence-transformers/all-MiniLM-L6-v2 · Qwen2.5:3B Instruct (Ollama, 4-bit) · Qwen2.5-0.5B-Instruct + adapter LoRA (estudo de especialização, treinado no Colab) |
 | **URL do MVP e repositório** | Repositório: https://github.com/rcm2005/golpe-zero-gs · MVP: API FastAPI (`uvicorn src.api:app --port 8000`, Swagger em `/docs`); URL pública de produção sob responsabilidade da disciplina Secure DevOps Tools & Cloud Computing (componente Produção do time) |
 | **Indicadores de impacto** | Acurácia de veredito nos 35 casos auditados (25 principais + 10 de estresse) · Recall@1 e Recall@3 da busca na base oficial · Latência de recusa fora de domínio (7 a 315 ms) · Fundamentação em fonte oficial · mAP@50 da detecção visual · % de respostas com citação de fonte oficial · Latência da inferência visual |
 | **ODS conectados** | ODS 3, ODS 9, ODS 10 e ODS 11 (justificativas na seção 9) |
@@ -310,6 +310,8 @@ Tabela gerada a partir de `avaliacao/placar_benchmark.json` (35 casos: 25 princi
 | **Zero-Shot (Sem Contexto)** | 85,7% | 14,3% | 100% | 6,47 s | 6,36 s |
 | **Pipeline RAG Simples** | 80,0% | 17,1% | 100% | 8,21 s | 8,22 s |
 | **Agente Decisor (2 Etapas)** | 80,0% | 17,1% | 100% | 7,51 s | 0,007 a 0,315 s nos 5 casos fora de domínio |
+
+Na base de 0.5B, o adapter LoRA chegou a 71,4% de acurácia contra 54,3% do RAG simples e 25,7% do zero-shot ([relatorio/05_lora.md](relatorio/05_lora.md)).
 
 Fundamentação em fonte oficial nos 19 golpes: zero-shot 68,4%, RAG simples 100%, agente 89,5%. O zero-shot ficou 2 casos à frente em veredito; o ganho do RAG é a citação verificável. Interpretação completa e limites em [relatorio/RELATORIO_GENAI.md](relatorio/RELATORIO_GENAI.md).
 

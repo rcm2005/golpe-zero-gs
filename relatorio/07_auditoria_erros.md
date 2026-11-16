@@ -51,13 +51,13 @@ financeiro, é nao_consta.
 
 * **Casos:** `tc_017` e `tc_027` (código de acesso do Caixa Tem, com aviso de não compartilhar) classificados como `golpe` em todas as configurações; `tc_016` (fatura Nubank) e `tc_020` (limite Pix) mudam de veredito quando o contexto de golpes entra no prompt.
 * **Causa provável:** o 3B associa "código" e "segurança" a fraude, e os trechos de golpes recuperados reforçam esse viés. A base tem pouquíssimos exemplos de mensagens bancárias legítimas.
-* **Proposta:** incluir avisos legítimos no treino LoRA (já presentes no dataset, 48 exemplos) e na base de conhecimento; avaliar se o LoRA reduz o erro (`relatorio/05_lora.md`).
+* **Proposta e evidência:** incluir avisos legítimos no treino LoRA (48 exemplos no dataset) e na base de conhecimento. Na base de 0.5B, o LoRA acertou `tc_016`, `tc_017`, `tc_020` e `tc_027`, que o RAG errou (`relatorio/05_lora.md`). Falta repetir o treino sobre o modelo de 3B.
 
 ## Erro 5 - Casos adversariais com vocabulário financeiro (aberto)
 
 * **Casos:** `tc_029` (bolo com "urgente"), `tc_030` (pelada com "conta" e "prazo hoje") e `tc_031` (jogo com "conta bloqueada") classificados como `golpe` nas três configurações.
 * **Causa:** passam pelo portão lexical por conterem palavras como "conta" e "R$", e o 3B não os reconhece como fora de domínio.
-* **Proposta:** exemplos adversariais no treino LoRA; para o produto, manter pessoa no circuito: toda resposta `golpe` orienta confirmar com familiar ou banco por canal oficial antes de qualquer ação, o que limita o dano de um falso positivo.
+* **Proposta:** exemplos adversariais no treino (o LoRA de 0.5B ainda errou `tc_029` a `tc_031`); para o produto, manter pessoa no circuito: toda resposta `golpe` orienta confirmar com familiar ou banco por canal oficial antes de qualquer ação, o que limita o dano de um falso positivo.
 
 ---
 
