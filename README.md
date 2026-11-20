@@ -125,7 +125,7 @@ golpe-zero-gs/
 │   ├── gerar_notebook_lora.py          # Executa o 02 com saídas e gera relatorio/05_lora.md
 │   ├── colab_lora.ipynb                # Roda o treino LoRA no Google Colab (GPU)
 │   ├── Caderno_de_fundamentos.ipynb    # Estudo de fundamentos de tensores
-│   └── Mecanismo_atencao_armengue.ipynb# Estudo de auto-atenção
+│   └── Mecanismo_atencao.ipynb         # Estudo de auto-atenção
 │
 ├── adapters/
 │   └── golpe_zero_lora/                # Adapter LoRA treinado (gerado pelo Colab)
